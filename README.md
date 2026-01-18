@@ -21,8 +21,7 @@ to your own Drive location.
 
 ```markdown
 Specifically, in the *Mount Drive* block, modify the working directory, e.g.,
-```
-```python
+python
 os.chdir('/content/drive/My Drive/Colab_Notebooks/[your-project-root]')
 ```
 
