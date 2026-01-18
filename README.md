@@ -10,3 +10,23 @@ complementary biological information. Extensive experiments on benchmark
 datasets demonstrate that GGAT consistently outperforms state-of-the-art
 Transformer-based baselines across multiple evaluation metrics, highlighting
 its effectiveness and flexibility for modeling disease–disease relationships.
+
+
+## Usage
+
+This project is designed to be run in Google Colab. All dependencies are handled
+within the notebooks. To reproduce the experiments, open the notebooks in Google
+Colab, mount your Google Drive, and update the project root path in the notebook
+to your own Drive location.
+
+```markdown
+Specifically, in the *Mount Drive* block, modify the working directory, e.g.,
+```
+```python
+os.chdir('/content/drive/My Drive/Colab_Notebooks/[your-project-root]')
+```
+
+* `GGAT_singlechannel.ipynb`: GGAT single-channel models, including GGAT-Connect
+  (`model_type = "n2v"`) and GGAT-Disease (`model_type = "label"`).
+
+* `GGAT_fusion.ipynb`: GGAT-GatedFusion model with multichannel gated fusion.
