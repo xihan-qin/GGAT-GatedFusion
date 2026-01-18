@@ -17,11 +17,8 @@ its effectiveness and flexibility for modeling disease–disease relationships.
 This project is designed to be run in Google Colab. All dependencies are handled
 within the notebooks. To reproduce the experiments, open the notebooks in Google
 Colab, mount your Google Drive, and update the project root path in the notebook
-to your own Drive location.
-
-```markdown
-Specifically, in the *Mount Drive* block, modify the working directory, e.g.,
-python
+to your own Drive location. Specifically, in the *Mount Drive* block:
+```python
 os.chdir('/content/drive/My Drive/Colab_Notebooks/[your-project-root]')
 ```
 
