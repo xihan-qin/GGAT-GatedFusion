@@ -38,6 +38,9 @@ The notebook `GGAT_singlechannel.ipynb` implements GGAT single-channel models, i
   in which case the notebook will finish within a few minutes.
 - Full-length training is only required to **reproduce the reported performance**.
 
+### GGAT single-channel framework
+![fig1](https://github.com/xihan-qin/GGAT-GatedFusion/blob/master/figs/GGAT%20channel.png)
+
 ---
 
 ### GGAT-GatedFusion Model
@@ -54,11 +57,7 @@ For convenience and reproducibility, the required `.pt` files are **provided in 
 repository**, allowing users to directly run the fusion model **without re-training**
 the single-channel models.
 
-
-## GGAT single-channel framework
-![fig1](https://github.com/xihan-qin/GGAT-GatedFusion/blob/master/figs/GGAT%20channel.png)
-
-## GatedFusion
+### GatedFusion
 ![fig2](https://github.com/xihan-qin/GGAT-GatedFusion/blob/master/figs/gatedfusion.png)
 
 ## Results Showcase
