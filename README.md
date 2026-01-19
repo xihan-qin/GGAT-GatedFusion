@@ -79,12 +79,14 @@ e_{ij}^{l,(k)} =
 \mathbf{W}^{l,(k)} \mathbf{h}_j^{l}
 \right]
 \right)
+\qquad (1)
 $$
 
 $$
 \alpha_{ij}^{l,(k)} =
 \frac{\exp\!\left( e_{ij}^{l,(k)} \right)}
 {\sum_{m \in \mathcal{N}(i)} \exp\!\left( e_{im}^{l,(k)} \right)}
+\qquad (2)
 $$
 
 $$
@@ -93,13 +95,14 @@ $$
 \sum_{j \in \mathcal{N}(i)}
 \alpha_{ij}^{l,(k)} \mathbf{h}_j^{l}
 \right)
+\qquad (3)
 $$
 
 $$
 \mathbf{x}_i^{l} =
 \big\Vert_{k=1}^{K} \mathbf{u}_i^{l,(k)}
+\qquad (4)
 $$
-
 
 Here, $\mathbf{W}^{l,(k)} \in \mathbb{R}^{F' \times F}$ is the head-specific
 projection matrix and $\Vert$ denotes concatenation.
