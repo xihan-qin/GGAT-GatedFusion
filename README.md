@@ -91,7 +91,7 @@ $$
 
 $$
 \mathbf{u}_i^{l,(k)} =
-\mathrm{ELU}\!\left(
+\mathrm{ELU}\left(
 \sum_{j \in \mathcal{N}(i)}
 \alpha_{ij}^{l,(k)} \mathbf{h}_j^{l}
 \right)
