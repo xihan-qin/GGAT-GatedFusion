@@ -69,6 +69,7 @@ For completeness, we briefly summarize the standard multi-head GAT updates used 
 layer $l$, the unnormalized attention score $e_{ij}^{l,(k)}$ between node $i$
 and a neighbor $j \in \mathcal{N}(i)$ is
 
+```latex
 $$
 e_{ij}^{l,(k)}
 =
@@ -105,6 +106,7 @@ $$
 \big\Vert_{k=1}^{K}
 \mathbf{u}_i^{l,(k)} .
 $$
+```
 
 Here, $\mathbf{W}^{l,(k)} \in \mathbb{R}^{F' \times F}$ is the head-specific
 projection matrix and $\Vert$ denotes concatenation.
