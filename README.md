@@ -215,7 +215,6 @@ conducted in the Google Colab environment on an NVIDIA Tesla T4 GPU with CUDA 12
       <td>GAT dropout</td>
       <td>0.4</td>
     </tr>
-
     <tr>
       <td colspan="2" align="center"><b>Gating and Pooling</b></td>
     </tr>
@@ -223,7 +222,6 @@ conducted in the Google Colab environment on an NVIDIA Tesla T4 GPU with CUDA 12
       <td>Pooling hidden dimension</td>
       <td>64</td>
     </tr>
-
     <tr>
       <td colspan="2" align="center"><b>RR Predictor</b></td>
     </tr>
