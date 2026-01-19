@@ -39,6 +39,7 @@ os.chdir('/content/drive/My Drive/Colab_Notebooks/[your-project-root]')
 
 ## Results Showcase
 ### Performance of Disease Comorbidity Prediction: Baselines and GGAT models
+Results are reported as mean ± standard deviation across cross-validation folds.
 | Model              | AUROC               | AUPRC               | Accuracy            | MCC                |
 |--------------------|---------------------|---------------------|---------------------|--------------------|
 | GE                 | 0.5497 ± 0.0079     | –                   | 0.6150 ± 0.0078     | –                  |
@@ -49,8 +50,6 @@ os.chdir('/content/drive/My Drive/Colab_Notebooks/[your-project-root]')
 | GGAT-Disease       | 0.8217 ± 0.0220     | 0.8610 ± 0.0194     | 0.7476 ± 0.0230     | 0.4945 ± 0.0220    |
 | GGAT-EmbedFusion   | 0.8223 ± 0.0185     | 0.8599 ± 0.0165     | 0.7500 ± 0.0150     | 0.4975 ± 0.0333    |
 | **GGAT-GatedFusion** | **0.8397 ± 0.0180** | **0.8758 ± 0.0175** | **0.7669 ± 0.0140** | **0.5337 ± 0.0310** |
-
-Results are reported as mean ± standard deviation across cross-validation folds.
 
 ### Gated and Non-Gated Model Variants on the Connect Channel
 <table>
@@ -177,3 +176,13 @@ Results are reported as mean ± standard deviation across cross-validation folds
     </tr>
   </tbody>
 </table>
+
+### UMAP projections of learned features at different stages of the GGAT framework. 
+(a,b) Protein-level features from the connectivity and disease channels after GGAT layers. (c,d) Disease–pair features after adaptive pooling, where informative nodes are emphasized to form more structured representations. (e) Fused disease-pair features from the gated fusion model, integrating complementary signals from the two channels. Dashed/dotted outlines highlight clusters of pairs that involve selected diseases (glioma, coronary disease, and macular degeneration), and the annotated points indicate representative disease pairs used for downstream network inspection. (f,g) Two-hop interactome neighborhoods for representative disease pairs. Nodes correspond to proteins associated with each disease and their shared/intermediate neighbors, and edges represent protein–protein interactions.
+![fig3](https://github.com/xihan-qin/GGAT-GatedFusion/blob/master/figs/fusion_umap_grid%20.png)
+
+### Network visualization of disease pairs involving coronary disease (CAD)
+![fig4](https://github.com/xihan-qin/GGAT-GatedFusion/blob/master/figs/CAD_TP_vs_TN_side_by_side.png)
+
+### Note
+For additional details, please consult the paper titled "Gated Graph Attention with Multichannel Fusion for Interactome-Based Disease Comorbidity Prediction"
