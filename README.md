@@ -104,7 +104,7 @@ $$
 \qquad (Eq.4)
 $$
 
-Here, $\mathbf{W}^{l,(k)} \in \mathbb{R}^{F' \times F}$ is the head-specific
+Here, $`\mathbf{W}^{l,(k)} \in \mathbb{R}^{F' \times F}`$ is the head-specific
 projection matrix and $\Vert$ denotes concatenation.
 
 For the $k$-th head, node features
