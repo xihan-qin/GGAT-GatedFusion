@@ -75,7 +75,7 @@ e_{ij}^{l,(k)} =
 (\mathbf{a}^{l,(k)})^{\top}
 \left[
 \mathbf{W}^{l,(k)} \mathbf{h}_i^{l}
-\;\Vert\;
+\Vert
 \mathbf{W}^{l,(k)} \mathbf{h}_j^{l}
 \right]
 \right)
