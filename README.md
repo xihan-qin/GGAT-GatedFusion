@@ -172,23 +172,77 @@ conducted in the Google Colab environment on an NVIDIA Tesla T4 GPU with CUDA 12
 ---
 
 ### Hyperparameters
-| Component | Setting |
-|---------|---------|
-| Loss function | BCEWithLogitsLoss |
-| **GGAT backbone** | |
-| Number of GGAT layers | 3 |
-| Hidden dimension per head | 8 |
-| Heads (layer 1) | 8 |
-| Heads (layer 2) | 4 |
-| Heads (layer 3) | 1 |
-| Intermediate node dimension | 32 |
-| GAT dropout | 0.4 |
-| **Gating and pooling** | |
-| Pooling hidden dimension | 64 |
-| **RR predictor** | |
-| Predictor input dimension | 32 |
-| Predictor hidden dimension | 32 |
-| Output dimension | 1 |
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Setting</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Loss function</td>
+      <td>BCEWithLogitsLoss</td>
+    </tr>
+
+    <tr>
+      <td colspan="2" align="center"><b>GGAT Backbone</b></td>
+    </tr>
+    <tr>
+      <td>Number of GGAT layers</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Hidden dimension per head</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Heads (layer 1)</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Heads (layer 2)</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>Heads (layer 3)</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Intermediate node dimension</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>GAT dropout</td>
+      <td>0.4</td>
+    </tr>
+
+    <tr>
+      <td colspan="2" align="center"><b>Gating and Pooling</b></td>
+    </tr>
+    <tr>
+      <td>Pooling hidden dimension</td>
+      <td>64</td>
+    </tr>
+
+    <tr>
+      <td colspan="2" align="center"><b>RR Predictor</b></td>
+    </tr>
+    <tr>
+      <td>Predictor input dimension</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>Predictor hidden dimension</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>Output dimension</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## Results Showcase
 ### Performance of Disease Comorbidity Prediction: Baselines and GGAT models
