@@ -69,17 +69,37 @@ For completeness, we briefly summarize the standard multi-head GAT updates used 
 layer $l$, the unnormalized attention score $e_{ij}^{l,(k)}$ between node $i$
 and a neighbor $j \in \mathcal{N}(i)$ is
 
-Unnormalized attention score:
-eᶫ,ᵏᵢⱼ = LeakyReLU( (aᶫ,ᵏ)ᵀ · [ Wᶫ,ᵏ hᶫᵢ  ∥  Wᶫ,ᵏ hᶫⱼ ] )
+$$
+e_{ij}^{l,(k)} =
+\mathrm{LeakyReLU}\!\left(
+(\mathbf{a}^{l,(k)})^{\top}
+\left[
+\mathbf{W}^{l,(k)} \mathbf{h}_i^{l}
+\;\Vert\;
+\mathbf{W}^{l,(k)} \mathbf{h}_j^{l}
+\right]
+\right)
+$$
 
-Normalized attention coefficient:
-αᶫ,ᵏᵢⱼ = exp(eᶫ,ᵏᵢⱼ) / ∑ₘ∈𝒩(i) exp(eᶫ,ᵏᵢₘ)
+$$
+\alpha_{ij}^{l,(k)} =
+\frac{\exp\!\left( e_{ij}^{l,(k)} \right)}
+{\sum_{m \in \mathcal{N}(i)} \exp\!\left( e_{im}^{l,(k)} \right)}
+$$
 
-Head-specific node representation:
-uᶫ,ᵏᵢ = ELU( ∑ⱼ∈𝒩(i) αᶫ,ᵏᵢⱼ · hᶫⱼ )
+$$
+\mathbf{u}_i^{l,(k)} =
+\mathrm{ELU}\!\left(
+\sum_{j \in \mathcal{N}(i)}
+\alpha_{ij}^{l,(k)} \mathbf{h}_j^{l}
+\right)
+$$
 
-Multi-head concatenation:
-xᶫᵢ = ∥ₖ₌₁ᴷ uᶫ,ᵏᵢ
+$$
+\mathbf{x}_i^{l} =
+\big\Vert_{k=1}^{K} \mathbf{u}_i^{l,(k)}
+$$
+
 
 Here, $\mathbf{W}^{l,(k)} \in \mathbb{R}^{F' \times F}$ is the head-specific
 projection matrix and $\Vert$ denotes concatenation.
