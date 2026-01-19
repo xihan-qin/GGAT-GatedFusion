@@ -115,3 +115,65 @@ Results are reported as mean ± standard deviation across cross-validation folds
   </tbody>
 </table>
 
+### Gated and Non-Gated Model Variants on the Disease Channel
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>AUROC</th>
+      <th>AUPRC</th>
+      <th>Accuracy</th>
+      <th>MCC</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="5" align="center"><b>Gated Variants</b></td>
+    </tr>
+    <tr>
+      <td><b>GGAT</b></td>
+      <td><b>0.8217 ± 0.0219</b></td>
+      <td><b>0.8610 ± 0.0194</b></td>
+      <td><b>0.7476 ± 0.0229</b></td>
+      <td><b>0.4945 ± 0.0366</b></td>
+    </tr>
+    <tr>
+      <td>GGCN</td>
+      <td>0.8072 ± 0.0175</td>
+      <td>0.8530 ± 0.0134</td>
+      <td>0.7311 ± 0.0183</td>
+      <td>0.4654 ± 0.0309</td>
+    </tr>
+    <tr>
+      <td>GGraphSAGE</td>
+      <td>0.8105 ± 0.0249</td>
+      <td>0.8564 ± 0.0220</td>
+      <td>0.7374 ± 0.0217</td>
+      <td>0.4759 ± 0.0381</td>
+    </tr>
+    <tr>
+      <td colspan="5" align="center"><b>Non-Gated Variants</b></td>
+    </tr>
+    <tr>
+      <td>GAT</td>
+      <td>0.5685 ± 0.0421</td>
+      <td>0.5796 ± 0.1825</td>
+      <td>0.5696 ± 0.0241</td>
+      <td>0.1253 ± 0.0593</td>
+    </tr>
+    <tr>
+      <td>GCN</td>
+      <td>0.7715 ± 0.0172</td>
+      <td>0.8185 ± 0.0168</td>
+      <td>0.7040 ± 0.0158</td>
+      <td>0.4100 ± 0.0247</td>
+    </tr>
+    <tr>
+      <td>GraphSAGE</td>
+      <td>0.8169 ± 0.0224</td>
+      <td>0.8601 ± 0.0216</td>
+      <td>0.7390 ± 0.0158</td>
+      <td>0.4817 ± 0.0396</td>
+    </tr>
+  </tbody>
+</table>
