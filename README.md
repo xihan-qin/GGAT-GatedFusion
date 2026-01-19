@@ -84,8 +84,8 @@ $$
 
 $$
 \alpha_{ij}^{l,(k)} =
-\frac{\exp\!\left( e_{ij}^{l,(k)} \right)}
-{\sum_{m \in \mathcal{N}(i)} \exp\!\left( e_{im}^{l,(k)} \right)}
+\frac{\exp\left( e_{ij}^{l,(k)} \right)}
+{\sum_{m \in \mathcal{N}(i)} \exp\left( e_{im}^{l,(k)} \right)}
 \qquad (Eq.2)
 $$
 
