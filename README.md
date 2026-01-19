@@ -146,7 +146,15 @@ where $`\mathbf{W}_3 , \mathbf{w}_4`$ are trainable predictor parameters, and $\
 and $\sigma(\cdot)$ is the sigmoid. The model is trained with the standard binary 
 cross-entropy loss,
 
+$$
+\mathcal{L}_p =
+- y_p \log\!\big( \sigma(\ell_p) \big)
+- \big( 1 - y_p \big)
+\log\!\Big( 1 - \sigma(\ell_p) \Big)
+\qquad (Eq.7)
+$$
 
+where $y_p \in \{0,1\}$ is the ground-truth comorbidity label.
 
 ---
 
