@@ -127,29 +127,20 @@ Given a disease–pair representation $P_p$, the predictor is a two-layer MLP wi
 ReLU activation,
 
 $$
-\ell_p
-=
+\ell_p =
 \mathbf{w}_4^{\top}
-\rho\!\big(
-\mathbf{W}_3 \rho(\mathbf{P}_p)
-\big),
+\rho\!\Big(
+\mathbf{W}_3 \, \rho(P_p)
+\Big)
+\qquad (Eq.5)
 $$
 
 $$
-\hat{y}_p
-=
-\sigma(\ell_p).
+\hat{y}_p =
+\sigma(\ell_p)
+\qquad (Eq.6)
 $$
 
-where $\rho(\cdot)$ is ReLU and $\sigma(\cdot)$ is the sigmoid. The model is
-trained with the standard binary cross-entropy loss,
-
-$$
-\mathcal{L}_p
-=
-- y_p \log \sigma(\ell_p)
-- (1 - y_p) \log\!\big( 1 - \sigma(\ell_p) \big).
-$$
 
 where $y_p \in \{0,1\}$ is the ground-truth comorbidity label.
 
