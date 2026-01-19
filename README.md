@@ -66,8 +66,8 @@ the single-channel models.
 ### Standard Multi-Head GAT Formulation
 
 For completeness, we briefly summarize the standard multi-head GAT updates used inside each GGAT layer. For the $k$-th head at
-layer $l$, the unnormalized attention score $e_{ij}^{l,(k)}$ between node $i$
-and a neighbor $j \in \mathcal{N}(i)$ is
+layer $l$, the unnormalized attention score $e_{ij}^{l,(k)}$ between node $g_i$
+and a neighbor $g_j \in \mathcal{N}(i)$ is
 
 $$
 e_{ij}^{l,(k)} =
