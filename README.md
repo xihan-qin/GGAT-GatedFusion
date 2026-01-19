@@ -61,6 +61,137 @@ the single-channel models.
 #### GatedFusion
 ![fig2](https://github.com/xihan-qin/GGAT-GatedFusion/blob/master/figs/gatedfusion.png)
 
+## Additional Implementation Details (Supplementary to the Manuscript)
+
+### Standard Multi-Head GAT Formulation
+
+For completeness, we briefly summarize the standard multi-head GAT updates used inside each GGAT layer. For the $k$-th head at
+layer $l$, the unnormalized attention score $e_{ij}^{l,(k)}$ between node $i$
+and a neighbor $j \in \mathcal{N}(i)$ is
+
+$$
+e_{ij}^{l,(k)}
+=
+\mathrm{LeakyReLU}\!\left(
+\big(\mathbf{a}^{l,(k)}\big)^{\top}
+\big[
+\mathbf{W}^{l,(k)} \mathbf{h}_i^{l}
+\,\Vert\,
+\mathbf{W}^{l,(k)} \mathbf{h}_j^{l}
+\big]
+\right),
+$$
+
+$$
+\alpha_{ij}^{l,(k)}
+=
+\frac{\exp\!\big( e_{ij}^{l,(k)} \big)}
+{\sum_{m \in \mathcal{N}(i)}
+\exp\!\big( e_{im}^{l,(k)} \big)},
+$$
+
+$$
+\mathbf{u}_i^{l,(k)}
+=
+\mathrm{ELU}\!\left(
+\sum_{j \in \mathcal{N}(i)}
+\alpha_{ij}^{l,(k)} \mathbf{h}_j^{l}
+\right),
+$$
+
+$$
+\mathbf{x}_i^{l}
+=
+\big\Vert_{k=1}^{K}
+\mathbf{u}_i^{l,(k)} .
+$$
+
+Here, $\mathbf{W}^{l,(k)} \in \mathbb{R}^{F' \times F}$ is the head-specific
+projection matrix and $\Vert$ denotes concatenation.
+
+For the $k$-th head, node features
+$\mathbf{h}_i^{l,(k)}, \mathbf{h}_j^{l,(k)} \in \mathbb{R}^{F'}$ represent the
+projected embeddings of node $i$ and its neighbor $j$, and $\mathcal{N}(i)$
+denotes the neighborhood of node $i$. The unnormalized attention score
+$e_{ij}^{l,(k)}$ for edge $(i,j)$ is computed by applying a learnable vector
+$\mathbf{a}^{l,(k)} \in \mathbb{R}^{2F'}$ to the concatenated projected features
+of nodes $i$ and $j$. The score $e_{ij}^{l,(k)}$ is then normalized across all
+neighbors to produce attention weights $\alpha_{ij}^{l,(k)}$. The weighted
+neighbor features are aggregated and passed through an ELU activation to yield
+the head-specific representation, which are subsequently concatenated across
+heads.
+
+---
+
+### Prediction Layer and Loss
+
+Given a disease–pair representation $P_p$, the predictor is a two-layer MLP with
+ReLU activation,
+
+$$
+\ell_p
+=
+\mathbf{w}_4^{\top}
+\rho\!\big(
+\mathbf{W}_3 \rho(\mathbf{P}_p)
+\big),
+$$
+
+$$
+\hat{y}_p
+=
+\sigma(\ell_p).
+$$
+
+where $\rho(\cdot)$ is ReLU and $\sigma(\cdot)$ is the sigmoid. The model is
+trained with the standard binary cross-entropy loss,
+
+$$
+\mathcal{L}_p
+=
+- y_p \log \sigma(\ell_p)
+- (1 - y_p) \log\!\big( 1 - \sigma(\ell_p) \big).
+$$
+
+where $y_p \in \{0,1\}$ is the ground-truth comorbidity label.
+
+---
+
+### Training and Experimental Settings
+
+We perform stratified 10-fold cross-validation on the 10,743 disease–disease
+pairs, preserving the positive/negative comorbidity ratio in each fold. In each
+run, nine folds are used for training and one fold is held out for testing; the
+test fold is never used during model selection or early stopping. All models are
+trained using the Adam optimizer with a learning rate of 0.005 and weight decay
+of $5 \times 10^{-4}$. Single-channel GGAT models are trained for 3000 epochs,
+while the GatedFusion variant is trained for 2000 epochs. All hyperparameters
+are summarized below. Experiments are conducted in the Google Colab environment
+on an NVIDIA Tesla T4 GPU with CUDA 12 support.
+
+---
+
+### Hyperparameters
+
+| Component | Setting |
+|---------|---------|
+| Epochs | 3000 |
+| Loss function | BCEWithLogitsLoss |
+| **GGAT backbone** | |
+| Number of GGAT layers | 3 |
+| Hidden dimension per head | 8 |
+| Heads (layer 1) | 8 |
+| Heads (layer 2) | 4 |
+| Heads (layer 3) | 1 |
+| Intermediate node dimension | 32 |
+| GAT dropout | 0.4 |
+| **Gating and pooling** | |
+| Pooling hidden dimension | 64 |
+| **RR predictor** | |
+| Predictor input dimension | 32 |
+| Predictor hidden dimension | 32 |
+| Output dimension | 1 |
+
 ## Results Showcase
 ### Performance of Disease Comorbidity Prediction: Baselines and GGAT models
 Results are reported as mean ± standard deviation across cross-validation folds.
