@@ -148,8 +148,8 @@ cross-entropy loss,
 
 $$
 \mathcal{L}_p =
-- y_p \log\!\big( \sigma(\ell_p) \big)
-- \big( 1 - y_p \big)
+\,-\, y_p \log\!\big( \sigma(\ell_p) \big)
+\;-\; \big( 1 - y_p \big)\,
 \log\!\Big( 1 - \sigma(\ell_p) \Big)
 \qquad (Eq.7)
 $$
