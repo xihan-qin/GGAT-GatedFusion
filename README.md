@@ -129,7 +129,7 @@ ReLU activation,
 $$
 \ell_p =
 \mathbf{w}_4^{\top}
-\rho\!\Big(
+\rho\Big(
 \mathbf{W}_3 \, \rho(P_p)
 \Big)
 \qquad (Eq.5)
@@ -142,7 +142,11 @@ $$
 $$
 
 
-where $y_p \in \{0,1\}$ is the ground-truth comorbidity label.
+where $\mW_3, \vw_4$ are trainable predictor parameters, and $\rho(\cdot)$ is ReLU 
+and $\sigma(\cdot)$ is the sigmoid. The model is trained with the standard binary 
+cross-entropy loss,
+
+
 
 ---
 
