@@ -28,4 +28,8 @@ os.chdir('/content/drive/My Drive/Colab_Notebooks/[your-project-root]')
   * GGAT-Connect (`model_type = "n2v"`)
   * GGAT-Disease (`model_type = "label"`)
 
-* `GGAT_fusion.ipynb`: GGAT-GatedFusion model with multichannel gated fusion.
+* `GGAT_fusion.ipynb`: GGAT-GatedFusion model 
+
+
+# GGAT single-channel framework
+![fig1](https://github.com/xihan-qin/GGAT-GatedFusion/blob/master/figs/GGAT%20channel.png)
