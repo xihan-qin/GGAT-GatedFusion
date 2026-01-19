@@ -48,13 +48,14 @@ The notebook `GGAT_singlechannel.ipynb` implements GGAT single-channel models, i
 The notebook `GGAT_fusion.ipynb` implements the **GGAT-GatedFusion** model.
 
 #### Important Notes
-- This notebook requires **pre-trained representations** learned from the
-  single-channel GGAT models.
-- These representations are saved as `.pt` files during execution of
-  `GGAT_singlechannel.ipynb`.
+- This notebook requires **pre-trained single-channel GGAT checkpoints** produced by
+  `GGAT_singlechannel.ipynb` (saved as `.pt` files containing model parameters).
+- In `GGAT_fusion.ipynb`, the single-channel models are **loaded from these `.pt` checkpoints**
+  and the corresponding **node representations (embeddings) are computed via a forward pass**
+  before being used as inputs to the fusion model.
 
-For convenience and reproducibility, the required `.pt` files are **provided in this
-repository**, allowing users to directly run the fusion model **without re-training**
+For convenience and reproducibility, the required single-channel `.pt` checkpoints are
+provided in this repository, allowing users to run the fusion notebook without re-training
 the single-channel models.
 
 #### GatedFusion
