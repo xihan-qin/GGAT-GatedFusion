@@ -12,8 +12,7 @@ Transformer-based baselines across multiple evaluation metrics, highlighting
 its effectiveness and flexibility for modeling disease–disease relationships.
 
 
-## Usage
-
+## Models and Usage
 This project is designed to be run in Google Colab. All dependencies are handled
 within the notebooks. To reproduce the experiments, open the notebooks in Google
 Colab, mount your Google Drive, and update the project root path in the notebook
@@ -24,11 +23,36 @@ Specifically, in the *Mount Drive* block:
 os.chdir('/content/drive/My Drive/Colab_Notebooks/[your-project-root]')
 ```
 
-* `GGAT_singlechannel.ipynb`: GGAT single-channel models including
-  * GGAT-Connect (`model_type = "n2v"`)
-  * GGAT-Disease (`model_type = "label"`)
+### GGAT Single-Channel Models
 
-* `GGAT_fusion.ipynb`: GGAT-GatedFusion model 
+The notebook `GGAT_singlechannel.ipynb` implements GGAT single-channel models, including:
+
+- **GGAT-Connect** (`model_type = "n2v"`)
+- **GGAT-Disease** (`model_type = "label"`)
+
+#### Runtime Notes
+- The default number of training epochs is **3000**, which requires a GPU and takes
+  approximately **9 hours** to complete on Google Colab.
+- For users who only want to **verify that the code runs correctly** or to
+  **inspect the model design**, the number of epochs can be reduced (e.g., `epochs = 1`),
+  in which case the notebook will finish within a few minutes.
+- Full-length training is only required to **reproduce the reported performance**.
+
+---
+
+### GGAT-GatedFusion Model
+
+The notebook `GGAT_fusion.ipynb` implements the **GGAT-GatedFusion** model.
+
+#### Important Notes
+- This notebook requires **pre-trained representations** learned from the
+  single-channel GGAT models.
+- These representations are saved as `.pt` files during execution of
+  `GGAT_singlechannel.ipynb`.
+
+For convenience and reproducibility, the required `.pt` files are **provided in this
+repository**, allowing users to directly run the fusion model **without re-training**
+the single-channel models.
 
 
 ## GGAT single-channel framework
