@@ -108,7 +108,7 @@ Here, $`\mathbf{W}^{l,(k)} \in \mathbb{R}^{F' \times F}`$ is the head-specific
 projection matrix and $\Vert$ denotes concatenation.
 
 For the $k$-th head, node features
-$\mathbf{h}_i^{l,(k)}, \mathbf{h}_j^{l,(k)} \in \mathbb{R}^{F'}$ represent the
+$`\mathbf{h}_i^{l,(k)}, \mathbf{h}_j^{l,(k)} \in \mathbb{R}^{F'}`$ represent the
 projected embeddings of node $i$ and its neighbor $j$, and $\mathcal{N}(i)$
 denotes the neighborhood of node $i$. The unnormalized attention score
 $e_{ij}^{l,(k)}$ for edge $(i,j)$ is computed by applying a learnable vector
