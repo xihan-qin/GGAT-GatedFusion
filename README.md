@@ -71,7 +71,7 @@ and a neighbor $g_j \in \mathcal{N}(i)$ is
 
 $$
 e_{ij}^{l,(k)} =
-\mathrm{LeakyReLU}\!\left(
+\mathrm{LeakyReLU}\left(
 (\mathbf{a}^{l,(k)})^{\top}
 \left[
 \mathbf{W}^{l,(k)} \mathbf{h}_i^{l}
