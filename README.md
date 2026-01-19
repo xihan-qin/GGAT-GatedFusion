@@ -163,20 +163,17 @@ where $`y_p \in \{0,1\}`$ is the ground-truth comorbidity label.
 We perform stratified 10-fold cross-validation on the 10,743 disease–disease
 pairs, preserving the positive/negative comorbidity ratio in each fold. In each
 run, nine folds are used for training and one fold is held out for testing; the
-test fold is never used during model selection or early stopping. All models are
-trained using the Adam optimizer with a learning rate of 0.005 and weight decay
-of $5 \times 10^{-4}$. Single-channel GGAT models are trained for 3000 epochs,
-while the GatedFusion variant is trained for 2000 epochs. All hyperparameters
-are summarized below. Experiments are conducted in the Google Colab environment
-on an NVIDIA Tesla T4 GPU with CUDA 12 support.
+test fold is never used during model training. All models are trained using the 
+Adam optimizer with a learning rate of 0.005 and weight decay of $5 \times 10^{-4}$. 
+Single-channel GGAT models are trained for 3000 epochs, while the GatedFusion variant 
+is trained for 200 epochs. All hyperparameters are summarized below. Experiments are 
+conducted in the Google Colab environment on an NVIDIA Tesla T4 GPU with CUDA 12 support.
 
 ---
 
 ### Hyperparameters
-
 | Component | Setting |
 |---------|---------|
-| Epochs | 3000 |
 | Loss function | BCEWithLogitsLoss |
 | **GGAT backbone** | |
 | Number of GGAT layers | 3 |
