@@ -109,12 +109,12 @@ projection matrix and $\Vert$ denotes concatenation.
 
 For the $k$-th head, node features
 $`\mathbf{h}_i^{l,(k)}, \mathbf{h}_j^{l,(k)} \in \mathbb{R}^{F'}`$ represent the
-projected embeddings of node $i$ and its neighbor $j$, and $\mathcal{N}(i)$
+projected embeddings of node $i$ and its neighbor $j$, and $`\mathcal{N}(i)`$
 denotes the neighborhood of node $i$. The unnormalized attention score
-$e_{ij}^{l,(k)}$ for edge $(i,j)$ is computed by applying a learnable vector
-$\mathbf{a}^{l,(k)} \in \mathbb{R}^{2F'}$ to the concatenated projected features
-of nodes $i$ and $j$. The score $e_{ij}^{l,(k)}$ is then normalized across all
-neighbors to produce attention weights $\alpha_{ij}^{l,(k)}$. The weighted
+$`e_{ij}^{l,(k)}$ for edge $(i,j)`$ is computed by applying a learnable vector
+$`\mathbf{a}^{l,(k)} \in \mathbb{R}^{2F'}`$ to the concatenated projected features
+of nodes $i$ and $j$. The score $`e_{ij}^{l,(k)}`$ is then normalized across all
+neighbors to produce attention weights $`\alpha_{ij}^{l,(k)}`$. The weighted
 neighbor features are aggregated and passed through an ELU activation to yield
 the head-specific representation, which are subsequently concatenated across
 heads.
