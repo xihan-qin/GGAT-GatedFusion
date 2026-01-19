@@ -142,7 +142,7 @@ $$
 $$
 
 
-where $\mW_3, \vw_4$ are trainable predictor parameters, and $\rho(\cdot)$ is ReLU 
+where $`\mathbf{W}_3 , \mathbf{w}_4`$ are trainable predictor parameters, and $\rho(\cdot)$ is ReLU 
 and $\sigma(\cdot)$ is the sigmoid. The model is trained with the standard binary 
 cross-entropy loss,
 
