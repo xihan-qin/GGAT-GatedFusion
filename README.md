@@ -184,7 +184,6 @@ conducted in the Google Colab environment on an NVIDIA Tesla T4 GPU with CUDA 12
       <td>Loss function</td>
       <td>BCEWithLogitsLoss</td>
     </tr>
-
     <tr>
       <td colspan="2" align="center"><b>GGAT Backbone</b></td>
     </tr>
