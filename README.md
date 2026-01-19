@@ -154,7 +154,7 @@ $$
 \qquad (Eq.7)
 $$
 
-where $y_p \in \{0,1\}$ is the ground-truth comorbidity label.
+where $`y_p \in \{0,1\}`$ is the ground-truth comorbidity label.
 
 ---
 
