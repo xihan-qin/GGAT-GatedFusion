@@ -53,8 +53,6 @@ os.chdir('/content/drive/My Drive/Colab_Notebooks/[your-project-root]')
 Results are reported as mean ± standard deviation across cross-validation folds.
 
 ### Gated and Non-Gated Model Variants on the Connect Channel
-<div align="center">
-
 <table>
   <thead>
     <tr>
@@ -67,7 +65,7 @@ Results are reported as mean ± standard deviation across cross-validation folds
   </thead>
   <tbody>
     <tr>
-      <td colspan="5"><b>Gated Variants</b></td>
+      <td colspan="5" align="center"><b>Gated Variants</b></td>
     </tr>
     <tr>
       <td><b>GGAT</b></td>
@@ -91,7 +89,7 @@ Results are reported as mean ± standard deviation across cross-validation folds
       <td>0.4750 ± 0.0443</td>
     </tr>
     <tr>
-      <td colspan="5"><b>Non-Gated Variants</b></td>
+      <td colspan="5" align="center"><b>Non-Gated Variants</b></td>
     </tr>
     <tr>
       <td>GAT</td>
@@ -117,4 +115,3 @@ Results are reported as mean ± standard deviation across cross-validation folds
   </tbody>
 </table>
 
-</div>
