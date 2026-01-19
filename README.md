@@ -70,9 +70,9 @@ layer $l$, the unnormalized attention score $e_{ij}^{l,(k)}$ between node $i$
 and a neighbor $j \in \mathcal{N}(i)$ is
 
 ```latex
-$$
+\begin{align}
 e_{ij}^{l,(k)}
-=
+&=
 \mathrm{LeakyReLU}\!\left(
 \big(\mathbf{a}^{l,(k)}\big)^{\top}
 \big[
@@ -81,30 +81,26 @@ e_{ij}^{l,(k)}
 \mathbf{W}^{l,(k)} \mathbf{h}_j^{l}
 \big]
 \right),
-$$
-
-$$
+\label{eq:eij} \\
 \alpha_{ij}^{l,(k)}
-=
+&=
 \frac{\exp\!\big( e_{ij}^{l,(k)} \big)}
 {\sum_{m \in \mathcal{N}(i)}
 \exp\!\big( e_{im}^{l,(k)} \big)},
-$$
-
-$$
+\label{eq:alpha} \\
 \mathbf{u}_i^{l,(k)}
-=
+&=
 \mathrm{ELU}\!\left(
 \sum_{j \in \mathcal{N}(i)}
 \alpha_{ij}^{l,(k)} \mathbf{h}_j^{l}
 \right),
-$$
-
-$$
+\label{eq:ui} \\
 \mathbf{x}_i^{l}
-=
+&=
 \big\Vert_{k=1}^{K}
 \mathbf{u}_i^{l,(k)} .
+\label{eq:xi}
+\end{align}
 $$
 ```
 
