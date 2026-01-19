@@ -389,4 +389,4 @@ Results are reported as mean ± standard deviation across cross-validation folds
 ![fig4](https://github.com/xihan-qin/GGAT-GatedFusion/blob/master/figs/CAD_TP_vs_TN_side_by_side.png)
 
 ### Note
-For additional details, please consult the paper titled "Gated Graph Attention with Multichannel Fusion for Interactome-Based Disease Comorbidity Prediction"
+For additional details, please consult the paper titled "Multichannel Gated Graph Attention Networks for Interactome-Based Disease Comorbidity Prediction"
