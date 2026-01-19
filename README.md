@@ -91,10 +91,10 @@ $$
 
 $$
 \mathbf{u}_i^{l,(k)} =
-\mathrm{ELU}\left(
+\mathrm{ELU}\Big(
 \sum_{j \in \mathcal{N}(i)}
 \alpha_{ij}^{l,(k)} \mathbf{h}_j^{l}
-\right)
+\Big)
 \qquad (Eq.3)
 $$
 
