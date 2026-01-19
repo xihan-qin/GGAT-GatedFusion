@@ -1,4 +1,4 @@
-# Gated-Graph-Attention-for-Disease-Comorbidity
+# Multichannel-Gated-Graph-Attention-Networks-for-Disease-Comorbidity
 
 In this work, we propose a Gated Graph Attention Network (GGAT) framework for
 interactome-based disease comorbidity prediction. GGAT performs topology-aware
