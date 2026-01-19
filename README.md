@@ -113,11 +113,11 @@ projected embeddings of node $g_i$ and its neighbor $g_j$, and $`\mathcal{N}(i)`
 denotes the neighborhood of node $g_i$. The unnormalized attention score
 $`e_{ij}^{l,(k)}`$ for edge $`(g_i,g_j)`$ is computed by applying a learnable vector
 $`\mathbf{a}^{l,(k)} \in \mathbb{R}^{2F'}`$ to the concatenated projected features
-of nodes $i$ and $j$. The score $`e_{ij}^{l,(k)}`$ is then normalized across all
-neighbors to produce attention weights $`\alpha_{ij}^{l,(k)}`$. The weighted
+of nodes $i$ and $j$ (Eq.1). The score $`e_{ij}^{l,(k)}`$ is then normalized across all
+neighbors to produce attention weights $`\alpha_{ij}^{l,(k)}`$ (Eq.2). The weighted
 neighbor features are aggregated and passed through an ELU activation to yield
-the head-specific representation, which are subsequently concatenated across
-heads.
+the head-specific representation (Eq.3), which are subsequently concatenated across
+heads (Eq.4).
 
 ---
 
