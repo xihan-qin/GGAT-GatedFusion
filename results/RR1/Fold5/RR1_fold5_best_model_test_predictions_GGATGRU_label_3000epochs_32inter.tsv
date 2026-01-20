@@ -1,0 +1,1075 @@
+pair_id	disease_pair	label	prob	pred	acc	mcc	auprc	roc_auc	best_thresh
+0	spinocerebellar ataxias&spinocerebellar degenerations	1	0.8896337151527405	1	0.7654	0.5377	0.8812	0.8467	0.5748
+1	albuminuria&glioma	1	0.1903531402349472	0	0.7654	0.5377	0.8812	0.8467	0.5748
+2	leukemia, myeloid, acute&myeloproliferative disorders	1	0.9944532513618469	1	0.7654	0.5377	0.8812	0.8467	0.5748
+3	muscular dystrophies&spastic paraplegia, hereditary	1	0.8128551244735718	1	0.7654	0.5377	0.8812	0.8467	0.5748
+4	leukemia, b-cell&thyroid diseases	1	0.5747718811035156	0	0.7654	0.5377	0.8812	0.8467	0.5748
+5	anemia, aplastic&leukemia, myeloid, acute	1	0.9055299758911133	1	0.7654	0.5377	0.8812	0.8467	0.5748
+6	immunologic deficiency syndromes&mycobacterium infections	1	0.9550241231918335	1	0.7654	0.5377	0.8812	0.8467	0.5748
+7	amino acid metabolism, inborn errors&leukemia, lymphocytic, chronic, b-cell	1	0.996783971786499	1	0.7654	0.5377	0.8812	0.8467	0.5748
+8	amino acid metabolism, inborn errors&leukemia, b-cell	1	0.9967671632766724	1	0.7654	0.5377	0.8812	0.8467	0.5748
+9	multiple sclerosis&muscular dystrophies	1	0.20883475244045258	0	0.7654	0.5377	0.8812	0.8467	0.5748
+10	leukemia, lymphocytic, chronic, b-cell&leukemia, myeloid, acute	1	0.16895145177841187	0	0.7654	0.5377	0.8812	0.8467	0.5748
+11	behcet syndrome&vasculitis	1	0.6669728755950928	1	0.7654	0.5377	0.8812	0.8467	0.5748
+12	death, sudden&mycobacterium infections	1	0.4347192049026489	0	0.7654	0.5377	0.8812	0.8467	0.5748
+13	immunologic deficiency syndromes&lymphoma	1	0.8483396172523499	1	0.7654	0.5377	0.8812	0.8467	0.5748
+14	hemorrhagic disorders&leukemia, myeloid, acute	1	0.41655001044273376	0	0.7654	0.5377	0.8812	0.8467	0.5748
+15	intestinal neoplasms&neoplasms, connective and soft tissue	1	0.8638606071472168	1	0.7654	0.5377	0.8812	0.8467	0.5748
+16	liver cirrhosis&metabolism, inborn errors	1	0.6232462525367737	1	0.7654	0.5377	0.8812	0.8467	0.5748
+17	intellectual disability&spinocerebellar degenerations	1	0.8971771597862244	1	0.7654	0.5377	0.8812	0.8467	0.5748
+18	breast diseases&breast neoplasms	1	0.23491936922073364	0	0.7654	0.5377	0.8812	0.8467	0.5748
+19	exophthalmos&graves disease	1	0.952092707157135	1	0.7654	0.5377	0.8812	0.8467	0.5748
+20	macular degeneration&uveal diseases	1	0.7847166061401367	1	0.7654	0.5377	0.8812	0.8467	0.5748
+21	hypotrichosis&neoplasms, connective and soft tissue	1	0.7963168025016785	1	0.7654	0.5377	0.8812	0.8467	0.5748
+22	blood coagulation disorders&purine-pyrimidine metabolism, inborn errors	1	0.8817748427391052	1	0.7654	0.5377	0.8812	0.8467	0.5748
+23	behcet syndrome&lupus erythematosus, systemic	1	0.8170592188835144	1	0.7654	0.5377	0.8812	0.8467	0.5748
+24	coronary artery disease&myocardial ischemia	1	0.8885772228240967	1	0.7654	0.5377	0.8812	0.8467	0.5748
+25	multiple sclerosis&spinocerebellar degenerations	1	0.8552578091621399	1	0.7654	0.5377	0.8812	0.8467	0.5748
+26	immune system diseases&nervous system diseases	1	0.3058500289916992	0	0.7654	0.5377	0.8812	0.8467	0.5748
+27	arthritis, rheumatoid&craniofacial abnormalities	1	0.8019302487373352	1	0.7654	0.5377	0.8812	0.8467	0.5748
+28	endocrine system diseases&graves disease	1	0.6713679432868958	1	0.7654	0.5377	0.8812	0.8467	0.5748
+29	arthritis, rheumatoid&immunologic deficiency syndromes	1	0.8694191575050354	1	0.7654	0.5377	0.8812	0.8467	0.5748
+30	cranial nerve diseases&spinocerebellar degenerations	1	0.9500370621681213	1	0.7654	0.5377	0.8812	0.8467	0.5748
+31	autoimmune diseases&blood platelet disorders	1	0.7087783217430115	1	0.7654	0.5377	0.8812	0.8467	0.5748
+32	anemia, aplastic&autoimmune diseases	1	0.7591698169708252	1	0.7654	0.5377	0.8812	0.8467	0.5748
+33	craniofacial abnormalities&spinocerebellar ataxias	1	0.5804561972618103	1	0.7654	0.5377	0.8812	0.8467	0.5748
+34	craniofacial abnormalities&exophthalmos	1	0.6689888834953308	1	0.7654	0.5377	0.8812	0.8467	0.5748
+35	motor neuron disease&peripheral nervous system diseases	1	0.9683006405830383	1	0.7654	0.5377	0.8812	0.8467	0.5748
+36	glioma&vascular diseases	1	0.1011834442615509	0	0.7654	0.5377	0.8812	0.8467	0.5748
+37	neoplasms&retinitis pigmentosa	1	0.2170526683330536	0	0.7654	0.5377	0.8812	0.8467	0.5748
+38	pancreatic diseases&spondylitis, ankylosing	1	0.31252408027648926	0	0.7654	0.5377	0.8812	0.8467	0.5748
+39	disorders of sex development&spondylitis	1	0.11046681553125381	0	0.7654	0.5377	0.8812	0.8467	0.5748
+40	arthritis&spondylitis	1	0.9650686979293823	1	0.7654	0.5377	0.8812	0.8467	0.5748
+41	celiac disease&immunologic deficiency syndromes	1	0.9828064441680908	1	0.7654	0.5377	0.8812	0.8467	0.5748
+42	dyskinesias&spinocerebellar degenerations	1	0.8858996033668518	1	0.7654	0.5377	0.8812	0.8467	0.5748
+43	bone diseases, metabolic&spinal cord diseases	1	0.9975333213806152	1	0.7654	0.5377	0.8812	0.8467	0.5748
+44	bile duct diseases&intestinal neoplasms	1	0.5066582560539246	0	0.7654	0.5377	0.8812	0.8467	0.5748
+45	amyotrophic lateral sclerosis&demyelinating diseases	1	0.5785940885543823	1	0.7654	0.5377	0.8812	0.8467	0.5748
+46	blood coagulation disorders, inherited&liver cirrhosis	1	0.9998936653137207	1	0.7654	0.5377	0.8812	0.8467	0.5748
+47	peripheral nervous system diseases&psoriasis	1	0.9166780710220337	1	0.7654	0.5377	0.8812	0.8467	0.5748
+48	charcot-marie-tooth disease&muscular diseases	1	0.8054252862930298	1	0.7654	0.5377	0.8812	0.8467	0.5748
+49	amino acid metabolism, inborn errors&leprosy	1	0.69489985704422	1	0.7654	0.5377	0.8812	0.8467	0.5748
+50	immune system diseases&malabsorption syndromes	1	0.9511290192604065	1	0.7654	0.5377	0.8812	0.8467	0.5748
+51	multiple sclerosis&stomatognathic diseases	1	0.702033281326294	1	0.7654	0.5377	0.8812	0.8467	0.5748
+52	disorders of sex development&varicose veins	1	0.20239005982875824	0	0.7654	0.5377	0.8812	0.8467	0.5748
+53	bile duct diseases&purine-pyrimidine metabolism, inborn errors	1	0.14770853519439697	0	0.7654	0.5377	0.8812	0.8467	0.5748
+54	dyssomnias&myeloproliferative disorders	1	0.3753884732723236	0	0.7654	0.5377	0.8812	0.8467	0.5748
+55	asthma&muscular diseases	1	0.8584684133529663	1	0.7654	0.5377	0.8812	0.8467	0.5748
+56	movement disorders&spinocerebellar ataxias	1	0.992428719997406	1	0.7654	0.5377	0.8812	0.8467	0.5748
+57	adenocarcinoma&anemia, aplastic	1	0.9909747242927551	1	0.7654	0.5377	0.8812	0.8467	0.5748
+58	exophthalmos&spinocerebellar degenerations	1	0.9402211308479309	1	0.7654	0.5377	0.8812	0.8467	0.5748
+59	amino acid metabolism, inborn errors&lipidoses	1	0.9387682676315308	1	0.7654	0.5377	0.8812	0.8467	0.5748
+60	exophthalmos&hair diseases	1	0.9680260419845581	1	0.7654	0.5377	0.8812	0.8467	0.5748
+61	demyelinating diseases&dyssomnias	1	0.396964967250824	0	0.7654	0.5377	0.8812	0.8467	0.5748
+62	anemia, hemolytic&craniofacial abnormalities	1	8.32133082440123e-05	0	0.7654	0.5377	0.8812	0.8467	0.5748
+63	amyotrophic lateral sclerosis&spinocerebellar degenerations	1	0.9944738745689392	1	0.7654	0.5377	0.8812	0.8467	0.5748
+64	motor neuron disease&spinocerebellar degenerations	1	0.9943435192108154	1	0.7654	0.5377	0.8812	0.8467	0.5748
+65	lymphoma&muscular diseases	1	0.9495031833648682	1	0.7654	0.5377	0.8812	0.8467	0.5748
+66	arthritis, rheumatoid&exophthalmos	1	0.8419702649116516	1	0.7654	0.5377	0.8812	0.8467	0.5748
+67	lymphatic diseases&prostatic neoplasms	1	0.20983919501304626	0	0.7654	0.5377	0.8812	0.8467	0.5748
+68	intestinal neoplasms&neoplasms, germ cell and embryonal	1	0.587641716003418	1	0.7654	0.5377	0.8812	0.8467	0.5748
+69	leprosy&spondylitis	1	0.697762131690979	1	0.7654	0.5377	0.8812	0.8467	0.5748
+70	blood coagulation disorders&metabolism, inborn errors	1	0.7202375531196594	1	0.7654	0.5377	0.8812	0.8467	0.5748
+71	abnormalities, multiple&osteoporosis	1	0.018599096685647964	0	0.7654	0.5377	0.8812	0.8467	0.5748
+72	osteoporosis&spondylitis	1	0.9828165769577026	1	0.7654	0.5377	0.8812	0.8467	0.5748
+73	cranial nerve diseases&peripheral nervous system diseases	1	0.9961004257202148	1	0.7654	0.5377	0.8812	0.8467	0.5748
+74	anemia, aplastic&immune system diseases	1	0.9320230484008789	1	0.7654	0.5377	0.8812	0.8467	0.5748
+75	anemia, hemolytic&dyssomnias	1	0.29698970913887024	0	0.7654	0.5377	0.8812	0.8467	0.5748
+76	death, sudden&spinal cord diseases	1	0.9165589809417725	1	0.7654	0.5377	0.8812	0.8467	0.5748
+77	hemorrhagic disorders&immune system diseases	1	0.928516685962677	1	0.7654	0.5377	0.8812	0.8467	0.5748
+78	hemorrhagic disorders&leukemia, lymphocytic, chronic, b-cell	1	0.8897203207015991	1	0.7654	0.5377	0.8812	0.8467	0.5748
+79	movement disorders&peripheral nervous system diseases	1	0.9923983216285706	1	0.7654	0.5377	0.8812	0.8467	0.5748
+80	amino acid metabolism, inborn errors&exophthalmos	1	0.9933581948280334	1	0.7654	0.5377	0.8812	0.8467	0.5748
+81	hypotrichosis&motor neuron disease	1	0.5102336406707764	0	0.7654	0.5377	0.8812	0.8467	0.5748
+82	lymphatic diseases&lymphoma	1	0.4895598590373993	0	0.7654	0.5377	0.8812	0.8467	0.5748
+83	lysosomal storage diseases&varicose veins	1	0.4157989025115967	0	0.7654	0.5377	0.8812	0.8467	0.5748
+84	bone diseases&peripheral nervous system diseases	1	0.877859354019165	1	0.7654	0.5377	0.8812	0.8467	0.5748
+85	metabolism, inborn errors&metal metabolism, inborn errors	1	0.8357619643211365	1	0.7654	0.5377	0.8812	0.8467	0.5748
+86	neoplasms, connective and soft tissue&spinal cord diseases	1	0.1499238908290863	0	0.7654	0.5377	0.8812	0.8467	0.5748
+87	liver cirrhosis, biliary&spinocerebellar ataxias	1	0.9032260179519653	1	0.7654	0.5377	0.8812	0.8467	0.5748
+88	anemia, hemolytic&immunologic deficiency syndromes	1	0.998155415058136	1	0.7654	0.5377	0.8812	0.8467	0.5748
+89	precursor cell lymphoblastic leukemia-lymphoma&sleep disorders	1	0.01708546094596386	0	0.7654	0.5377	0.8812	0.8467	0.5748
+90	peripheral nervous system diseases&vasculitis	1	0.6926228404045105	1	0.7654	0.5377	0.8812	0.8467	0.5748
+91	colorectal neoplasms&malabsorption syndromes	1	0.6212165951728821	1	0.7654	0.5377	0.8812	0.8467	0.5748
+92	hypotrichosis&lupus erythematosus, systemic	1	0.9032144546508789	1	0.7654	0.5377	0.8812	0.8467	0.5748
+93	psoriasis&spinocerebellar degenerations	1	0.9262185096740723	1	0.7654	0.5377	0.8812	0.8467	0.5748
+94	adenocarcinoma&hair diseases	1	0.18679122626781464	0	0.7654	0.5377	0.8812	0.8467	0.5748
+95	alzheimer disease&dyskinesias	1	0.8961464166641235	1	0.7654	0.5377	0.8812	0.8467	0.5748
+96	polyneuropathies&spondylarthropathies	1	0.6061055064201355	1	0.7654	0.5377	0.8812	0.8467	0.5748
+97	cholestasis&liver cirrhosis, biliary	1	0.6590011715888977	1	0.7654	0.5377	0.8812	0.8467	0.5748
+98	hair diseases&movement disorders	1	0.7538807988166809	1	0.7654	0.5377	0.8812	0.8467	0.5748
+99	arthritis, rheumatoid&vasculitis	1	0.9127013683319092	1	0.7654	0.5377	0.8812	0.8467	0.5748
+100	cholestasis&colorectal neoplasms	1	0.6475449204444885	1	0.7654	0.5377	0.8812	0.8467	0.5748
+101	amyotrophic lateral sclerosis&vascular diseases	1	0.44166532158851624	0	0.7654	0.5377	0.8812	0.8467	0.5748
+102	anemia, aplastic&colorectal neoplasms	1	0.765243411064148	1	0.7654	0.5377	0.8812	0.8467	0.5748
+103	dyssomnias&metal metabolism, inborn errors	1	0.776094913482666	1	0.7654	0.5377	0.8812	0.8467	0.5748
+104	coronary disease&parkinsonian disorders	1	0.1830669641494751	0	0.7654	0.5377	0.8812	0.8467	0.5748
+105	adrenal gland diseases&cholestasis	1	0.6306569576263428	1	0.7654	0.5377	0.8812	0.8467	0.5748
+106	dyssomnias&parkinsonian disorders	1	0.7157711386680603	1	0.7654	0.5377	0.8812	0.8467	0.5748
+107	arterial occlusive diseases&disorders of sex development	1	0.5407828092575073	0	0.7654	0.5377	0.8812	0.8467	0.5748
+108	cholestasis&uveal diseases	1	0.5625550746917725	0	0.7654	0.5377	0.8812	0.8467	0.5748
+109	colorectal neoplasms&dwarfism	1	0.16469137370586395	0	0.7654	0.5377	0.8812	0.8467	0.5748
+110	amyotrophic lateral sclerosis&movement disorders	1	0.9143239855766296	1	0.7654	0.5377	0.8812	0.8467	0.5748
+111	amino acid metabolism, inborn errors&bone diseases, metabolic	1	0.9972455501556396	1	0.7654	0.5377	0.8812	0.8467	0.5748
+112	arthritis, rheumatoid&osteoporosis	1	0.8992055058479309	1	0.7654	0.5377	0.8812	0.8467	0.5748
+113	behcet syndrome&gastroenteritis	1	0.8393795490264893	1	0.7654	0.5377	0.8812	0.8467	0.5748
+114	immunologic deficiency syndromes&spinal cord diseases	1	0.8996214866638184	1	0.7654	0.5377	0.8812	0.8467	0.5748
+115	alzheimer disease&purine-pyrimidine metabolism, inborn errors	1	0.07477974146604538	0	0.7654	0.5377	0.8812	0.8467	0.5748
+116	arterial occlusive diseases&neuroendocrine tumors	1	0.17283210158348083	0	0.7654	0.5377	0.8812	0.8467	0.5748
+117	osteoporosis&ovarian diseases	1	0.7431926131248474	1	0.7654	0.5377	0.8812	0.8467	0.5748
+118	albuminuria&hair diseases	1	0.9986417889595032	1	0.7654	0.5377	0.8812	0.8467	0.5748
+119	ankylosis&bone diseases, metabolic	1	0.8783633708953857	1	0.7654	0.5377	0.8812	0.8467	0.5748
+120	gastroenteritis&uveal diseases	1	0.7939450144767761	1	0.7654	0.5377	0.8812	0.8467	0.5748
+121	bone diseases&varicose veins	1	0.717472493648529	1	0.7654	0.5377	0.8812	0.8467	0.5748
+122	autoimmune diseases&motor neuron disease	1	0.6848142743110657	1	0.7654	0.5377	0.8812	0.8467	0.5748
+123	dementia&epilepsy	1	0.9615074396133423	1	0.7654	0.5377	0.8812	0.8467	0.5748
+124	arthritis&hemorrhagic disorders	1	0.9741159081459045	1	0.7654	0.5377	0.8812	0.8467	0.5748
+125	arthritis&blood platelet disorders	1	0.9445107579231262	1	0.7654	0.5377	0.8812	0.8467	0.5748
+126	cerebellar ataxia&muscular dystrophies	1	0.9700741171836853	1	0.7654	0.5377	0.8812	0.8467	0.5748
+127	anemia, hemolytic&arthritis	1	0.9705559015274048	1	0.7654	0.5377	0.8812	0.8467	0.5748
+128	blood coagulation disorders&leukemia	1	0.9956091046333313	1	0.7654	0.5377	0.8812	0.8467	0.5748
+129	metal metabolism, inborn errors&neoplasms, germ cell and embryonal	1	0.47357144951820374	0	0.7654	0.5377	0.8812	0.8467	0.5748
+130	dyskinesias&retinitis pigmentosa	1	0.8549807071685791	1	0.7654	0.5377	0.8812	0.8467	0.5748
+131	cerebellar ataxia&cranial nerve diseases	1	0.9265193343162537	1	0.7654	0.5377	0.8812	0.8467	0.5748
+132	dyskinesias&motor neuron disease	1	0.9170252084732056	1	0.7654	0.5377	0.8812	0.8467	0.5748
+133	arterial occlusive diseases&glomerulonephritis	1	0.9606531858444214	1	0.7654	0.5377	0.8812	0.8467	0.5748
+134	breast diseases&uveal diseases	1	0.30853232741355896	0	0.7654	0.5377	0.8812	0.8467	0.5748
+135	colitis, ulcerative&polyneuropathies	1	0.8237013220787048	1	0.7654	0.5377	0.8812	0.8467	0.5748
+136	ankylosis&graves disease	1	0.6521849036216736	1	0.7654	0.5377	0.8812	0.8467	0.5748
+137	hemorrhagic disorders&muscular dystrophies	1	0.31825369596481323	0	0.7654	0.5377	0.8812	0.8467	0.5748
+138	lipidoses&spondylitis, ankylosing	1	0.5396252870559692	0	0.7654	0.5377	0.8812	0.8467	0.5748
+139	death, sudden&epilepsy	1	0.9461842179298401	1	0.7654	0.5377	0.8812	0.8467	0.5748
+140	hypopigmentation&precursor cell lymphoblastic leukemia-lymphoma	1	0.37254151701927185	0	0.7654	0.5377	0.8812	0.8467	0.5748
+141	adrenal gland diseases&pancreatic diseases	1	0.8827499747276306	1	0.7654	0.5377	0.8812	0.8467	0.5748
+142	adrenal gland diseases&myocardial infarction	1	0.884225070476532	1	0.7654	0.5377	0.8812	0.8467	0.5748
+143	lupus erythematosus, systemic&osteoporosis	1	0.8695870637893677	1	0.7654	0.5377	0.8812	0.8467	0.5748
+144	graves disease&ovarian diseases	1	0.702764093875885	1	0.7654	0.5377	0.8812	0.8467	0.5748
+145	blood coagulation disorders, inherited&vascular diseases	1	0.7751926183700562	1	0.7654	0.5377	0.8812	0.8467	0.5748
+146	amino acid metabolism, inborn errors&respiratory tract diseases	1	0.901518702507019	1	0.7654	0.5377	0.8812	0.8467	0.5748
+147	hypothalamic diseases&movement disorders	1	0.9844836592674255	1	0.7654	0.5377	0.8812	0.8467	0.5748
+148	blood platelet disorders&proteinuria	1	0.9999998807907104	1	0.7654	0.5377	0.8812	0.8467	0.5748
+149	celiac disease&muscular diseases	1	0.9701365828514099	1	0.7654	0.5377	0.8812	0.8467	0.5748
+150	lupus erythematosus, systemic&nervous system diseases	1	0.5296627283096313	0	0.7654	0.5377	0.8812	0.8467	0.5748
+151	carbohydrate metabolism, inborn errors&lipidoses	1	0.9893063902854919	1	0.7654	0.5377	0.8812	0.8467	0.5748
+152	cranial nerve diseases&spinocerebellar ataxias	1	0.9500644207000732	1	0.7654	0.5377	0.8812	0.8467	0.5748
+153	immunologic deficiency syndromes&uveitis	1	0.5892125368118286	1	0.7654	0.5377	0.8812	0.8467	0.5748
+154	mycobacterium infections&osteoporosis	1	0.9737758040428162	1	0.7654	0.5377	0.8812	0.8467	0.5748
+155	leukemia&spinal cord diseases	1	0.33933064341545105	0	0.7654	0.5377	0.8812	0.8467	0.5748
+156	neoplasms, connective and soft tissue&respiratory tract diseases	1	0.2287777215242386	0	0.7654	0.5377	0.8812	0.8467	0.5748
+157	hypothalamic diseases&metabolism, inborn errors	1	0.7564048171043396	1	0.7654	0.5377	0.8812	0.8467	0.5748
+158	myeloproliferative disorders&vasculitis	1	0.9729064702987671	1	0.7654	0.5377	0.8812	0.8467	0.5748
+159	aneurysm&hemorrhagic disorders	1	0.7067463397979736	1	0.7654	0.5377	0.8812	0.8467	0.5748
+160	genital diseases, male&prostatic neoplasms	1	0.4630970358848572	0	0.7654	0.5377	0.8812	0.8467	0.5748
+161	cranial nerve diseases&hereditary sensory and motor neuropathy	1	0.9961265921592712	1	0.7654	0.5377	0.8812	0.8467	0.5748
+162	immune system diseases&leukemia, b-cell	1	0.9118289947509766	1	0.7654	0.5377	0.8812	0.8467	0.5748
+163	cerebellar ataxia&glioma	1	0.6369377970695496	1	0.7654	0.5377	0.8812	0.8467	0.5748
+164	cardiomyopathy, hypertrophic&death, sudden	1	0.9450056552886963	1	0.7654	0.5377	0.8812	0.8467	0.5748
+165	gastroenteritis&metabolism, inborn errors	1	0.9038844108581543	1	0.7654	0.5377	0.8812	0.8467	0.5748
+166	blood coagulation disorders&lupus erythematosus, systemic	1	0.9914639592170715	1	0.7654	0.5377	0.8812	0.8467	0.5748
+167	immunologic deficiency syndromes&metal metabolism, inborn errors	1	0.9953043460845947	1	0.7654	0.5377	0.8812	0.8467	0.5748
+168	anemia, hemolytic&liver cirrhosis, biliary	1	0.9999773502349854	1	0.7654	0.5377	0.8812	0.8467	0.5748
+169	ovarian diseases&vasculitis	1	0.620303750038147	1	0.7654	0.5377	0.8812	0.8467	0.5748
+170	cardiomegaly&cardiomyopathy, hypertrophic	1	0.9595696926116943	1	0.7654	0.5377	0.8812	0.8467	0.5748
+171	arthritis, rheumatoid&joint diseases	1	0.905974268913269	1	0.7654	0.5377	0.8812	0.8467	0.5748
+172	anemia, aplastic&behcet syndrome	1	0.5263133645057678	0	0.7654	0.5377	0.8812	0.8467	0.5748
+173	muscular diseases&spondylarthropathies	1	0.9966199398040771	1	0.7654	0.5377	0.8812	0.8467	0.5748
+174	cardiomyopathies&muscular diseases	1	0.9485761523246765	1	0.7654	0.5377	0.8812	0.8467	0.5748
+175	blood coagulation disorders, inherited&lysosomal storage diseases	1	0.985358476638794	1	0.7654	0.5377	0.8812	0.8467	0.5748
+176	blood coagulation disorders, inherited&vasculitis	1	0.9870133996009827	1	0.7654	0.5377	0.8812	0.8467	0.5748
+177	hypotrichosis&spondylitis	1	0.9716401696205139	1	0.7654	0.5377	0.8812	0.8467	0.5748
+178	peripheral nervous system diseases&proteinuria	1	0.999992847442627	1	0.7654	0.5377	0.8812	0.8467	0.5748
+179	leukemia&neoplasms	1	0.3131440281867981	0	0.7654	0.5377	0.8812	0.8467	0.5748
+180	metal metabolism, inborn errors&spinocerebellar degenerations	1	0.9759162068367004	1	0.7654	0.5377	0.8812	0.8467	0.5748
+181	anemia&autoimmune diseases	1	0.9032780528068542	1	0.7654	0.5377	0.8812	0.8467	0.5748
+182	cardiomyopathies&diabetes mellitus, type 1	1	0.9905681014060974	1	0.7654	0.5377	0.8812	0.8467	0.5748
+183	charcot-marie-tooth disease&demyelinating diseases	1	0.7569640874862671	1	0.7654	0.5377	0.8812	0.8467	0.5748
+184	cerebellar ataxia&proteinuria	1	0.9956359267234802	1	0.7654	0.5377	0.8812	0.8467	0.5748
+185	cerebellar ataxia&parkinsonian disorders	1	0.998782217502594	1	0.7654	0.5377	0.8812	0.8467	0.5748
+186	osteoporosis&peripheral nervous system diseases	1	0.9999394416809082	1	0.7654	0.5377	0.8812	0.8467	0.5748
+187	cranial nerve diseases&stomatognathic diseases	1	0.6957830786705017	1	0.7654	0.5377	0.8812	0.8467	0.5748
+188	breast neoplasms&spinal cord diseases	1	0.06156568229198456	0	0.7654	0.5377	0.8812	0.8467	0.5748
+189	ankylosis&arthritis, rheumatoid	1	0.697600245475769	1	0.7654	0.5377	0.8812	0.8467	0.5748
+190	goiter&spinocerebellar degenerations	1	0.9394590258598328	1	0.7654	0.5377	0.8812	0.8467	0.5748
+191	endocrine system diseases&multiple sclerosis	1	0.5620480179786682	0	0.7654	0.5377	0.8812	0.8467	0.5748
+192	multiple sclerosis&psoriasis	1	0.8327730894088745	1	0.7654	0.5377	0.8812	0.8467	0.5748
+193	bone diseases&death, sudden	1	0.7310649752616882	1	0.7654	0.5377	0.8812	0.8467	0.5748
+194	adrenal gland diseases&glioma	1	0.8796951174736023	1	0.7654	0.5377	0.8812	0.8467	0.5748
+195	exophthalmos&hypotrichosis	1	0.968056321144104	1	0.7654	0.5377	0.8812	0.8467	0.5748
+196	amyotrophic lateral sclerosis&spondylitis, ankylosing	1	0.8247788548469543	1	0.7654	0.5377	0.8812	0.8467	0.5748
+197	arthritis&metabolism, inborn errors	1	0.9091354012489319	1	0.7654	0.5377	0.8812	0.8467	0.5748
+198	dyskinesias&ovarian diseases	1	0.09915036708116531	0	0.7654	0.5377	0.8812	0.8467	0.5748
+199	lipidoses&spinal cord diseases	1	0.009221412241458893	0	0.7654	0.5377	0.8812	0.8467	0.5748
+200	breast diseases&genital diseases, female	1	0.2723502516746521	0	0.7654	0.5377	0.8812	0.8467	0.5748
+201	immunologic deficiency syndromes&liver cirrhosis	1	0.9950290322303772	1	0.7654	0.5377	0.8812	0.8467	0.5748
+202	muscular diseases&muscular dystrophies	1	0.647395670413971	1	0.7654	0.5377	0.8812	0.8467	0.5748
+203	cardiovascular diseases&glomerulonephritis	1	0.8523015975952148	1	0.7654	0.5377	0.8812	0.8467	0.5748
+204	carbohydrate metabolism, inborn errors&retinitis pigmentosa	1	0.8441603779792786	1	0.7654	0.5377	0.8812	0.8467	0.5748
+205	bone diseases, metabolic&myeloproliferative disorders	1	0.995482325553894	1	0.7654	0.5377	0.8812	0.8467	0.5748
+206	goiter&hair diseases	1	0.9675460457801819	1	0.7654	0.5377	0.8812	0.8467	0.5748
+207	cholestasis&lipidoses	1	0.8471463918685913	1	0.7654	0.5377	0.8812	0.8467	0.5748
+208	myeloproliferative disorders&neoplasms, connective and soft tissue	1	0.9979065656661987	1	0.7654	0.5377	0.8812	0.8467	0.5748
+209	bone diseases, metabolic&sleep disorders	1	0.5874643325805664	1	0.7654	0.5377	0.8812	0.8467	0.5748
+210	anemia&myeloproliferative disorders	1	0.9999995231628418	1	0.7654	0.5377	0.8812	0.8467	0.5748
+211	anemia&leukemia	1	0.9982890486717224	1	0.7654	0.5377	0.8812	0.8467	0.5748
+212	bone diseases, metabolic&hypothalamic diseases	1	0.9978787899017334	1	0.7654	0.5377	0.8812	0.8467	0.5748
+213	macular degeneration&vasculitis	1	0.9125961065292358	1	0.7654	0.5377	0.8812	0.8467	0.5748
+214	movement disorders&spondylitis, ankylosing	1	0.6218854188919067	1	0.7654	0.5377	0.8812	0.8467	0.5748
+215	albuminuria&gastroenteritis	1	0.9921073317527771	1	0.7654	0.5377	0.8812	0.8467	0.5748
+216	hypersensitivity&vasculitis	1	0.9303545951843262	1	0.7654	0.5377	0.8812	0.8467	0.5748
+217	arthritis&hypersensitivity	1	0.9615676999092102	1	0.7654	0.5377	0.8812	0.8467	0.5748
+218	epilepsy&metal metabolism, inborn errors	1	0.9943934679031372	1	0.7654	0.5377	0.8812	0.8467	0.5748
+219	joint diseases&lupus erythematosus, systemic	1	0.8971654176712036	1	0.7654	0.5377	0.8812	0.8467	0.5748
+220	lipidoses&thyroid diseases	1	0.6950985789299011	1	0.7654	0.5377	0.8812	0.8467	0.5748
+221	liver cirrhosis, biliary&myeloproliferative disorders	1	0.999458372592926	1	0.7654	0.5377	0.8812	0.8467	0.5748
+222	bone diseases&malformations of cortical development	1	0.7002942562103271	1	0.7654	0.5377	0.8812	0.8467	0.5748
+223	amyotrophic lateral sclerosis&immune system diseases	1	0.9266663193702698	1	0.7654	0.5377	0.8812	0.8467	0.5748
+224	craniofacial abnormalities&spondylarthropathies	1	0.8934734463691711	1	0.7654	0.5377	0.8812	0.8467	0.5748
+225	arterial occlusive diseases&peripheral nervous system diseases	1	0.9663148522377014	1	0.7654	0.5377	0.8812	0.8467	0.5748
+226	albuminuria&ectodermal dysplasia	1	0.9853889346122742	1	0.7654	0.5377	0.8812	0.8467	0.5748
+227	adrenal gland diseases&blood coagulation disorders	1	0.9982656836509705	1	0.7654	0.5377	0.8812	0.8467	0.5748
+228	bone diseases, metabolic&lymphoma	1	0.7581757307052612	1	0.7654	0.5377	0.8812	0.8467	0.5748
+229	osteoporosis&uveal diseases	1	0.7712110877037048	1	0.7654	0.5377	0.8812	0.8467	0.5748
+230	hypothalamic diseases&vasculitis	1	0.9097927808761597	1	0.7654	0.5377	0.8812	0.8467	0.5748
+231	blood platelet disorders&uveitis	1	0.48236337304115295	0	0.7654	0.5377	0.8812	0.8467	0.5748
+232	amino acid metabolism, inborn errors&ovarian neoplasms	1	0.9952789545059204	1	0.7654	0.5377	0.8812	0.8467	0.5748
+233	immune system diseases&ovarian neoplasms	1	0.8890653252601624	1	0.7654	0.5377	0.8812	0.8467	0.5748
+234	adrenal gland diseases&bone diseases, metabolic	1	0.7820006012916565	1	0.7654	0.5377	0.8812	0.8467	0.5748
+235	movement disorders&osteoporosis	1	0.9845681190490723	1	0.7654	0.5377	0.8812	0.8467	0.5748
+236	cerebellar ataxia&metal metabolism, inborn errors	1	0.9716833233833313	1	0.7654	0.5377	0.8812	0.8467	0.5748
+237	blood coagulation disorders&nervous system diseases	1	0.6541362404823303	1	0.7654	0.5377	0.8812	0.8467	0.5748
+238	blood platelet disorders&heart arrest	1	0.3313983976840973	0	0.7654	0.5377	0.8812	0.8467	0.5748
+239	albuminuria&arterial occlusive diseases	1	0.9999858140945435	1	0.7654	0.5377	0.8812	0.8467	0.5748
+240	arterial occlusive diseases&proteinuria	1	0.9999858140945435	1	0.7654	0.5377	0.8812	0.8467	0.5748
+241	celiac disease&spondylarthropathies	1	0.9698043465614319	1	0.7654	0.5377	0.8812	0.8467	0.5748
+242	cerebellar ataxia&spondylitis	1	0.911166787147522	1	0.7654	0.5377	0.8812	0.8467	0.5748
+243	coronary artery disease&diabetes mellitus, type 1	1	0.1351993829011917	0	0.7654	0.5377	0.8812	0.8467	0.5748
+244	cardiomyopathies&hyperthyroidism	1	0.7581320405006409	1	0.7654	0.5377	0.8812	0.8467	0.5748
+245	albuminuria&intellectual disability	1	0.999946117401123	1	0.7654	0.5377	0.8812	0.8467	0.5748
+246	intellectual disability&proteinuria	1	0.999946117401123	1	0.7654	0.5377	0.8812	0.8467	0.5748
+247	cardiomyopathy, hypertrophic&sleep disorders	1	0.7039092779159546	1	0.7654	0.5377	0.8812	0.8467	0.5748
+248	cardiomegaly&spondylarthropathies	1	0.9763204455375671	1	0.7654	0.5377	0.8812	0.8467	0.5748
+249	hemorrhagic disorders&macular degeneration	1	0.9151554107666016	1	0.7654	0.5377	0.8812	0.8467	0.5748
+250	myeloproliferative disorders&proteinuria	1	0.9999997615814209	1	0.7654	0.5377	0.8812	0.8467	0.5748
+251	lupus erythematosus, systemic&spinocerebellar degenerations	1	0.9436884522438049	1	0.7654	0.5377	0.8812	0.8467	0.5748
+252	dyskinesias&goiter	1	0.9511791467666626	1	0.7654	0.5377	0.8812	0.8467	0.5748
+253	cerebellar ataxia&spondylarthropathies	1	0.911166787147522	1	0.7654	0.5377	0.8812	0.8467	0.5748
+254	cardiomegaly&thyroid diseases	1	0.43283164501190186	0	0.7654	0.5377	0.8812	0.8467	0.5748
+255	exophthalmos&motor neuron disease	1	0.6605770587921143	1	0.7654	0.5377	0.8812	0.8467	0.5748
+256	albuminuria&liver cirrhosis	1	0.999895453453064	1	0.7654	0.5377	0.8812	0.8467	0.5748
+257	alzheimer disease&peripheral nervous system diseases	1	0.6121793389320374	1	0.7654	0.5377	0.8812	0.8467	0.5748
+258	cardiomegaly&coronary disease	1	0.9705470204353333	1	0.7654	0.5377	0.8812	0.8467	0.5748
+259	diabetes mellitus, type 2&glomerulonephritis	1	0.8303678035736084	1	0.7654	0.5377	0.8812	0.8467	0.5748
+260	cholestasis&hypotrichosis	1	0.5105240345001221	0	0.7654	0.5377	0.8812	0.8467	0.5748
+261	esophageal diseases&sleep disorders	1	0.9249584078788757	1	0.7654	0.5377	0.8812	0.8467	0.5748
+262	blood coagulation disorders, inherited&proteinuria	1	0.9999996423721313	1	0.7654	0.5377	0.8812	0.8467	0.5748
+263	arterial occlusive diseases&gout	1	0.9976077079772949	1	0.7654	0.5377	0.8812	0.8467	0.5748
+264	blood coagulation disorders, inherited&hemorrhagic disorders	1	0.9994803071022034	1	0.7654	0.5377	0.8812	0.8467	0.5748
+265	cardiovascular diseases&coronary artery disease	1	0.6713210940361023	1	0.7654	0.5377	0.8812	0.8467	0.5748
+266	cardiovascular diseases&myocardial ischemia	1	0.7667903304100037	1	0.7654	0.5377	0.8812	0.8467	0.5748
+267	cholestasis&leprosy	1	0.15972094237804413	0	0.7654	0.5377	0.8812	0.8467	0.5748
+268	lipid metabolism disorders&ovarian diseases	1	0.13522760570049286	0	0.7654	0.5377	0.8812	0.8467	0.5748
+269	hypopigmentation&leukemia	1	0.5916189551353455	1	0.7654	0.5377	0.8812	0.8467	0.5748
+270	amino acid metabolism, inborn errors&epilepsy	1	0.9993461966514587	1	0.7654	0.5377	0.8812	0.8467	0.5748
+271	asthma&esophageal diseases	1	0.9690220952033997	1	0.7654	0.5377	0.8812	0.8467	0.5748
+272	anemia&metal metabolism, inborn errors	1	0.9999821186065674	1	0.7654	0.5377	0.8812	0.8467	0.5748
+273	cerebellar ataxia&myeloproliferative disorders	1	0.8041664958000183	1	0.7654	0.5377	0.8812	0.8467	0.5748
+274	coronary disease&immune system diseases	1	0.821067214012146	1	0.7654	0.5377	0.8812	0.8467	0.5748
+275	hemorrhagic disorders&metal metabolism, inborn errors	1	0.9900042414665222	1	0.7654	0.5377	0.8812	0.8467	0.5748
+276	rheumatic diseases&vasculitis	1	0.8848820328712463	1	0.7654	0.5377	0.8812	0.8467	0.5748
+277	diabetes mellitus, type 1&muscular diseases	1	0.9683659076690674	1	0.7654	0.5377	0.8812	0.8467	0.5748
+278	arthritis, rheumatoid&lupus erythematosus, systemic	1	0.8809292912483215	1	0.7654	0.5377	0.8812	0.8467	0.5748
+279	arthritis, rheumatoid&polyneuropathies	1	0.9147265553474426	1	0.7654	0.5377	0.8812	0.8467	0.5748
+280	bone diseases, metabolic&hyperthyroidism	1	0.9702609181404114	1	0.7654	0.5377	0.8812	0.8467	0.5748
+281	cardiovascular diseases&spondylitis	1	0.921588659286499	1	0.7654	0.5377	0.8812	0.8467	0.5748
+282	arthritis&lipidoses	1	0.8687957525253296	1	0.7654	0.5377	0.8812	0.8467	0.5748
+283	basal ganglia diseases&osteoporosis	1	0.9974539875984192	1	0.7654	0.5377	0.8812	0.8467	0.5748
+284	anemia, hemolytic&bone diseases, metabolic	1	0.9841676354408264	1	0.7654	0.5377	0.8812	0.8467	0.5748
+285	adrenal gland diseases&diabetes mellitus, type 1	1	0.8440632820129395	1	0.7654	0.5377	0.8812	0.8467	0.5748
+286	adrenal gland diseases&hair diseases	1	0.27643293142318726	0	0.7654	0.5377	0.8812	0.8467	0.5748
+287	basal ganglia diseases&vascular diseases	1	0.32042500376701355	0	0.7654	0.5377	0.8812	0.8467	0.5748
+288	arthritis&lupus erythematosus, systemic	1	0.8971476554870605	1	0.7654	0.5377	0.8812	0.8467	0.5748
+289	epilepsy&stomatognathic diseases	1	0.29046887159347534	0	0.7654	0.5377	0.8812	0.8467	0.5748
+290	amino acid metabolism, inborn errors&sleep disorders	1	0.3066690266132355	0	0.7654	0.5377	0.8812	0.8467	0.5748
+291	anemia, hemolytic&osteoporosis	1	0.9890698194503784	1	0.7654	0.5377	0.8812	0.8467	0.5748
+292	dyskinesias&immune system diseases	1	0.8251625299453735	1	0.7654	0.5377	0.8812	0.8467	0.5748
+293	epilepsy&hypopigmentation	1	0.9326353073120117	1	0.7654	0.5377	0.8812	0.8467	0.5748
+294	autoimmune diseases&genital diseases, female	1	0.326547771692276	0	0.7654	0.5377	0.8812	0.8467	0.5748
+295	leprosy&varicose veins	1	0.5600427389144897	0	0.7654	0.5377	0.8812	0.8467	0.5748
+296	endocrine system diseases&lymphoma	1	0.6760108470916748	1	0.7654	0.5377	0.8812	0.8467	0.5748
+297	carbohydrate metabolism, inborn errors&dyskinesias	1	0.9135481119155884	1	0.7654	0.5377	0.8812	0.8467	0.5748
+298	anemia&bone diseases	1	0.7786411046981812	1	0.7654	0.5377	0.8812	0.8467	0.5748
+299	celiac disease&genital diseases, female	1	0.22654569149017334	0	0.7654	0.5377	0.8812	0.8467	0.5748
+300	anemia, aplastic&coronary disease	1	0.017442582175135612	0	0.7654	0.5377	0.8812	0.8467	0.5748
+301	heart defects, congenital&hypersensitivity	1	0.6010721325874329	1	0.7654	0.5377	0.8812	0.8467	0.5748
+302	bone diseases, metabolic&thyroid diseases	1	0.9561597108840942	1	0.7654	0.5377	0.8812	0.8467	0.5748
+303	glomerulonephritis&heart defects, congenital	1	0.712546169757843	1	0.7654	0.5377	0.8812	0.8467	0.5748
+304	esophageal diseases&retinitis pigmentosa	1	0.959226131439209	1	0.7654	0.5377	0.8812	0.8467	0.5748
+305	coronary artery disease&death, sudden	1	0.9922671914100647	1	0.7654	0.5377	0.8812	0.8467	0.5748
+306	colitis, ulcerative&liver cirrhosis, biliary	1	0.9775747656822205	1	0.7654	0.5377	0.8812	0.8467	0.5748
+307	glomerulonephritis&nervous system diseases	1	0.6504117846488953	1	0.7654	0.5377	0.8812	0.8467	0.5748
+308	blood coagulation disorders, inherited&neoplasms, connective and soft tissue	1	0.9982842803001404	1	0.7654	0.5377	0.8812	0.8467	0.5748
+309	cardiovascular diseases&epilepsy	1	0.8937506675720215	1	0.7654	0.5377	0.8812	0.8467	0.5748
+310	bone diseases, metabolic&neoplasms	1	0.20881754159927368	0	0.7654	0.5377	0.8812	0.8467	0.5748
+311	amyotrophic lateral sclerosis&esophageal diseases	1	0.9293254017829895	1	0.7654	0.5377	0.8812	0.8467	0.5748
+312	blood platelet disorders&cardiomyopathy, hypertrophic	1	0.9239380359649658	1	0.7654	0.5377	0.8812	0.8467	0.5748
+313	dyskinesias&gastroenteritis	1	0.7292600870132446	1	0.7654	0.5377	0.8812	0.8467	0.5748
+314	basal ganglia diseases&hypothalamic diseases	1	0.9996032118797302	1	0.7654	0.5377	0.8812	0.8467	0.5748
+315	arterial occlusive diseases&leprosy	1	0.6958527565002441	1	0.7654	0.5377	0.8812	0.8467	0.5748
+316	arterial occlusive diseases&vasculitis	1	0.879281759262085	1	0.7654	0.5377	0.8812	0.8467	0.5748
+317	coronary disease&ovarian neoplasms	1	0.16043713688850403	0	0.7654	0.5377	0.8812	0.8467	0.5748
+318	cardiomyopathies&respiratory tract diseases	1	0.9403963088989258	1	0.7654	0.5377	0.8812	0.8467	0.5748
+319	anemia, aplastic&cardiomyopathies	1	0.8274515867233276	1	0.7654	0.5377	0.8812	0.8467	0.5748
+320	colitis, ulcerative&sleep disorders	1	0.033016979694366455	0	0.7654	0.5377	0.8812	0.8467	0.5748
+321	arrhythmias, cardiac&cardiovascular diseases	1	0.8973080515861511	1	0.7654	0.5377	0.8812	0.8467	0.5748
+322	hypothalamic diseases&leukemia, lymphocytic, chronic, b-cell	1	0.9233502149581909	1	0.7654	0.5377	0.8812	0.8467	0.5748
+323	hair diseases&spondylarthropathies	1	0.9716157913208008	1	0.7654	0.5377	0.8812	0.8467	0.5748
+324	blood coagulation disorders&head and neck neoplasms	1	0.8057252764701843	1	0.7654	0.5377	0.8812	0.8467	0.5748
+325	genital diseases, male&neuroendocrine tumors	1	0.11664720624685287	0	0.7654	0.5377	0.8812	0.8467	0.5748
+326	bone diseases, metabolic&carbohydrate metabolism, inborn errors	1	0.9672178626060486	1	0.7654	0.5377	0.8812	0.8467	0.5748
+327	amino acid metabolism, inborn errors&neoplasms, connective and soft tissue	1	0.9814923405647278	1	0.7654	0.5377	0.8812	0.8467	0.5748
+328	lung diseases, obstructive&lymphatic diseases	1	0.3494410514831543	0	0.7654	0.5377	0.8812	0.8467	0.5748
+329	joint diseases&retinitis pigmentosa	1	0.9135147929191589	1	0.7654	0.5377	0.8812	0.8467	0.5748
+330	adenocarcinoma&heart arrest	1	0.1668257713317871	0	0.7654	0.5377	0.8812	0.8467	0.5748
+331	arthritis&carbohydrate metabolism, inborn errors	1	0.9535496234893799	1	0.7654	0.5377	0.8812	0.8467	0.5748
+332	exophthalmos&varicose veins	1	0.9270201325416565	1	0.7654	0.5377	0.8812	0.8467	0.5748
+333	colitis, ulcerative&osteoporosis	1	0.9995738863945007	1	0.7654	0.5377	0.8812	0.8467	0.5748
+334	bone diseases&cardiomyopathies	1	0.7359286546707153	1	0.7654	0.5377	0.8812	0.8467	0.5748
+335	joint diseases&varicose veins	1	0.9496152997016907	1	0.7654	0.5377	0.8812	0.8467	0.5748
+336	anemia, hemolytic&respiratory tract diseases	1	0.8101934194564819	1	0.7654	0.5377	0.8812	0.8467	0.5748
+337	myeloproliferative disorders&sleep disorders	1	0.3753884434700012	0	0.7654	0.5377	0.8812	0.8467	0.5748
+338	albuminuria&dyskinesias	1	0.9867649078369141	1	0.7654	0.5377	0.8812	0.8467	0.5748
+339	movement disorders&retinitis pigmentosa	1	0.9915926456451416	1	0.7654	0.5377	0.8812	0.8467	0.5748
+340	diabetes mellitus, type 1&nervous system diseases	1	0.5074597001075745	0	0.7654	0.5377	0.8812	0.8467	0.5748
+341	cardiovascular diseases&dyskinesias	1	0.7041317820549011	1	0.7654	0.5377	0.8812	0.8467	0.5748
+342	genital diseases, female&intestinal neoplasms	1	0.22171124815940857	0	0.7654	0.5377	0.8812	0.8467	0.5748
+343	death, sudden&spinocerebellar ataxias	1	0.48871514201164246	0	0.7654	0.5377	0.8812	0.8467	0.5748
+344	basal ganglia diseases&mycobacterium infections	1	0.9843393564224243	1	0.7654	0.5377	0.8812	0.8467	0.5748
+345	colitis, ulcerative&demyelinating diseases	1	0.564289927482605	0	0.7654	0.5377	0.8812	0.8467	0.5748
+346	gout&respiratory tract diseases	1	0.7823619246482849	1	0.7654	0.5377	0.8812	0.8467	0.5748
+347	behcet syndrome&spondylitis, ankylosing	1	0.3776456415653229	0	0.7654	0.5377	0.8812	0.8467	0.5748
+348	epilepsy&liver cirrhosis, biliary	1	0.356175035238266	0	0.7654	0.5377	0.8812	0.8467	0.5748
+349	hypothalamic diseases&spondylarthropathies	1	0.9860618710517883	1	0.7654	0.5377	0.8812	0.8467	0.5748
+350	crohn disease&glomerulonephritis	1	0.48290979862213135	0	0.7654	0.5377	0.8812	0.8467	0.5748
+351	blood coagulation disorders, inherited&lung diseases, obstructive	1	0.9936606287956238	1	0.7654	0.5377	0.8812	0.8467	0.5748
+352	asthma&ovarian diseases	1	0.3476161062717438	0	0.7654	0.5377	0.8812	0.8467	0.5748
+353	spondylitis&thyroid diseases	1	0.9598665833473206	1	0.7654	0.5377	0.8812	0.8467	0.5748
+354	anemia, hemolytic&neoplasms, connective and soft tissue	1	0.9539204835891724	1	0.7654	0.5377	0.8812	0.8467	0.5748
+355	hyperthyroidism&spinal cord diseases	1	0.9752276539802551	1	0.7654	0.5377	0.8812	0.8467	0.5748
+356	adrenal gland diseases&cardiomyopathy, hypertrophic	1	0.9405390024185181	1	0.7654	0.5377	0.8812	0.8467	0.5748
+357	arterial occlusive diseases&arthritis	1	0.9202118515968323	1	0.7654	0.5377	0.8812	0.8467	0.5748
+358	blood coagulation disorders&hypersensitivity	1	0.9830401539802551	1	0.7654	0.5377	0.8812	0.8467	0.5748
+359	spondylarthropathies&thyroid diseases	1	0.9598665833473206	1	0.7654	0.5377	0.8812	0.8467	0.5748
+360	anemia, aplastic&epilepsy	1	0.9998966455459595	1	0.7654	0.5377	0.8812	0.8467	0.5748
+361	gout&prostatic neoplasms	1	0.1265515685081482	0	0.7654	0.5377	0.8812	0.8467	0.5748
+362	asthma&cardiomegaly	1	0.8967835903167725	1	0.7654	0.5377	0.8812	0.8467	0.5748
+363	asthma&spondylitis	1	0.9770963788032532	1	0.7654	0.5377	0.8812	0.8467	0.5748
+364	arterial occlusive diseases&malabsorption syndromes	1	0.9756869673728943	1	0.7654	0.5377	0.8812	0.8467	0.5748
+365	spondylitis, ankylosing&stomatognathic diseases	1	0.39365261793136597	0	0.7654	0.5377	0.8812	0.8467	0.5748
+366	joint diseases&malformations of cortical development	1	0.8338434100151062	1	0.7654	0.5377	0.8812	0.8467	0.5748
+367	aneurysm&neoplasms	1	0.39277440309524536	0	0.7654	0.5377	0.8812	0.8467	0.5748
+368	bile duct diseases&retinitis pigmentosa	1	0.9162573218345642	1	0.7654	0.5377	0.8812	0.8467	0.5748
+369	basal ganglia diseases&cardiovascular diseases	1	0.7065150141716003	1	0.7654	0.5377	0.8812	0.8467	0.5748
+370	anemia&lysosomal storage diseases	1	0.9995856881141663	1	0.7654	0.5377	0.8812	0.8467	0.5748
+371	amino acid metabolism, inborn errors&gout	1	0.9687932133674622	1	0.7654	0.5377	0.8812	0.8467	0.5748
+372	adrenal gland diseases&osteoporosis	1	0.7103512287139893	1	0.7654	0.5377	0.8812	0.8467	0.5748
+373	arterial occlusive diseases&cerebellar ataxia	1	0.8434299826622009	1	0.7654	0.5377	0.8812	0.8467	0.5748
+374	carbohydrate metabolism, inborn errors&liver cirrhosis	1	0.9868992567062378	1	0.7654	0.5377	0.8812	0.8467	0.5748
+375	anemia, aplastic&pancreatic diseases	1	0.9886892437934875	1	0.7654	0.5377	0.8812	0.8467	0.5748
+376	liver cirrhosis&malabsorption syndromes	1	0.8142572045326233	1	0.7654	0.5377	0.8812	0.8467	0.5748
+377	cardiomyopathy, hypertrophic&immune system diseases	1	0.9761080145835876	1	0.7654	0.5377	0.8812	0.8467	0.5748
+378	albuminuria&malformations of cortical development	1	0.8001677393913269	1	0.7654	0.5377	0.8812	0.8467	0.5748
+379	malformations of cortical development&proteinuria	1	0.800167977809906	1	0.7654	0.5377	0.8812	0.8467	0.5748
+380	adrenal gland diseases&hypersensitivity	1	0.6490623354911804	1	0.7654	0.5377	0.8812	0.8467	0.5748
+381	anemia, aplastic&movement disorders	1	0.4164029359817505	0	0.7654	0.5377	0.8812	0.8467	0.5748
+382	adenocarcinoma&blood coagulation disorders	1	0.9199309349060059	1	0.7654	0.5377	0.8812	0.8467	0.5748
+383	blood coagulation disorders, inherited&polyneuropathies	1	0.9462980628013611	1	0.7654	0.5377	0.8812	0.8467	0.5748
+384	cardiomegaly&leukemia	1	0.9039933681488037	1	0.7654	0.5377	0.8812	0.8467	0.5748
+385	arthritis&cerebellar ataxia	1	0.8493760824203491	1	0.7654	0.5377	0.8812	0.8467	0.5748
+386	peripheral nervous system diseases&rheumatic diseases	1	0.8459261655807495	1	0.7654	0.5377	0.8812	0.8467	0.5748
+387	albuminuria&joint diseases	1	0.9737207293510437	1	0.7654	0.5377	0.8812	0.8467	0.5748
+388	colitis, ulcerative&nervous system diseases	1	0.7688695788383484	1	0.7654	0.5377	0.8812	0.8467	0.5748
+389	retinitis pigmentosa&spondylitis	1	0.881783664226532	1	0.7654	0.5377	0.8812	0.8467	0.5748
+390	gastroenteritis&intellectual disability	1	0.4287312924861908	0	0.7654	0.5377	0.8812	0.8467	0.5748
+391	immunologic deficiency syndromes&multiple sclerosis	1	0.17396818101406097	0	0.7654	0.5377	0.8812	0.8467	0.5748
+392	glomerulonephritis&multiple sclerosis	1	0.37402060627937317	0	0.7654	0.5377	0.8812	0.8467	0.5748
+393	carbohydrate metabolism, inborn errors&macular degeneration	1	0.8022266626358032	1	0.7654	0.5377	0.8812	0.8467	0.5748
+394	myeloproliferative disorders&nervous system diseases	1	0.5715487003326416	0	0.7654	0.5377	0.8812	0.8467	0.5748
+395	genital diseases, male&hemorrhagic disorders	1	0.3859359323978424	0	0.7654	0.5377	0.8812	0.8467	0.5748
+396	carbohydrate metabolism, inborn errors&hypopigmentation	1	0.9949464201927185	1	0.7654	0.5377	0.8812	0.8467	0.5748
+397	arthritis, rheumatoid&demyelinating diseases	1	0.47041311860084534	0	0.7654	0.5377	0.8812	0.8467	0.5748
+398	esophageal diseases&varicose veins	1	0.9981922507286072	1	0.7654	0.5377	0.8812	0.8467	0.5748
+399	joint diseases&stomatognathic diseases	1	0.7996014356613159	1	0.7654	0.5377	0.8812	0.8467	0.5748
+400	cholestasis&ovarian diseases	1	0.3415970504283905	0	0.7654	0.5377	0.8812	0.8467	0.5748
+401	metal metabolism, inborn errors&respiratory tract diseases	1	0.867240846157074	1	0.7654	0.5377	0.8812	0.8467	0.5748
+402	bone diseases, metabolic&myocardial infarction	1	0.8264279365539551	1	0.7654	0.5377	0.8812	0.8467	0.5748
+403	cardiomegaly&diabetes mellitus, type 1	1	0.9905774593353271	1	0.7654	0.5377	0.8812	0.8467	0.5748
+404	bile duct diseases&hemorrhagic disorders	1	0.6143022179603577	1	0.7654	0.5377	0.8812	0.8467	0.5748
+405	hereditary sensory and motor neuropathy&macular degeneration	1	0.9975320100784302	1	0.7654	0.5377	0.8812	0.8467	0.5748
+406	carbohydrate metabolism, inborn errors&hypothalamic diseases	1	0.984549880027771	1	0.7654	0.5377	0.8812	0.8467	0.5748
+407	aneurysm&muscular dystrophies	1	0.413117378950119	0	0.7654	0.5377	0.8812	0.8467	0.5748
+408	cranial nerve diseases&hair diseases	1	0.312422513961792	0	0.7654	0.5377	0.8812	0.8467	0.5748
+409	blood platelet disorders&hypersensitivity	1	0.8909354209899902	1	0.7654	0.5377	0.8812	0.8467	0.5748
+410	pancreatic diseases&spondylitis	1	0.9338571429252625	1	0.7654	0.5377	0.8812	0.8467	0.5748
+411	esophageal diseases&myeloproliferative disorders	1	0.9998132586479187	1	0.7654	0.5377	0.8812	0.8467	0.5748
+412	gastroenteritis&psoriasis	1	0.7903262972831726	1	0.7654	0.5377	0.8812	0.8467	0.5748
+413	anemia, hemolytic&lung diseases, obstructive	1	0.9752424955368042	1	0.7654	0.5377	0.8812	0.8467	0.5748
+414	anemia&pancreatic diseases	1	0.9986612796783447	1	0.7654	0.5377	0.8812	0.8467	0.5748
+415	albuminuria&malabsorption syndromes	1	0.999907374382019	1	0.7654	0.5377	0.8812	0.8467	0.5748
+416	leukemia, myeloid, acute&metabolism, inborn errors	1	0.8661473989486694	1	0.7654	0.5377	0.8812	0.8467	0.5748
+417	blood coagulation disorders, inherited&hypotrichosis	1	0.9941434264183044	1	0.7654	0.5377	0.8812	0.8467	0.5748
+418	psoriasis&spinal cord diseases	1	0.9129182696342468	1	0.7654	0.5377	0.8812	0.8467	0.5748
+419	cholestasis&ovarian neoplasms	1	0.16846944391727448	0	0.7654	0.5377	0.8812	0.8467	0.5748
+420	hair diseases&heart defects, congenital	1	0.5703715682029724	0	0.7654	0.5377	0.8812	0.8467	0.5748
+421	macular degeneration&metabolism, inborn errors	1	0.788904070854187	1	0.7654	0.5377	0.8812	0.8467	0.5748
+422	dyssomnias&osteoporosis	1	0.5574192404747009	0	0.7654	0.5377	0.8812	0.8467	0.5748
+423	anemia, aplastic&carbohydrate metabolism, inborn errors	1	0.9966760873794556	1	0.7654	0.5377	0.8812	0.8467	0.5748
+424	graves disease&polyneuropathies	1	0.7767156958580017	1	0.7654	0.5377	0.8812	0.8467	0.5748
+425	lipidoses&psoriasis	1	0.7161991000175476	1	0.7654	0.5377	0.8812	0.8467	0.5748
+426	proteinuria&varicose veins	1	0.9995383024215698	1	0.7654	0.5377	0.8812	0.8467	0.5748
+427	leukemia, myeloid, acute&lupus erythematosus, systemic	1	0.8253360390663147	1	0.7654	0.5377	0.8812	0.8467	0.5748
+428	spondylarthropathies&stomatognathic diseases	1	0.6438271403312683	1	0.7654	0.5377	0.8812	0.8467	0.5748
+429	lymphoproliferative disorders&neoplasms	1	0.34152403473854065	0	0.7654	0.5377	0.8812	0.8467	0.5748
+430	head and neck neoplasms&nervous system diseases	1	0.6463998556137085	1	0.7654	0.5377	0.8812	0.8467	0.5748
+431	hereditary sensory and motor neuropathy&immune system diseases	1	0.6327943801879883	1	0.7654	0.5377	0.8812	0.8467	0.5748
+432	exophthalmos&joint diseases	1	0.9244985580444336	1	0.7654	0.5377	0.8812	0.8467	0.5748
+433	blood coagulation disorders&mycobacterium infections	1	0.9994435906410217	1	0.7654	0.5377	0.8812	0.8467	0.5748
+434	multiple sclerosis&mycobacterium infections	1	0.6697754263877869	1	0.7654	0.5377	0.8812	0.8467	0.5748
+435	charcot-marie-tooth disease&gastroenteritis	1	0.9259509444236755	1	0.7654	0.5377	0.8812	0.8467	0.5748
+436	coronary disease&hypothalamic diseases	1	0.08610296994447708	0	0.7654	0.5377	0.8812	0.8467	0.5748
+437	cranial nerve diseases&immune system diseases	1	0.9195227026939392	1	0.7654	0.5377	0.8812	0.8467	0.5748
+438	coronary artery disease&hemorrhagic disorders	1	0.7184454202651978	1	0.7654	0.5377	0.8812	0.8467	0.5748
+439	heart arrest&hyperthyroidism	1	0.5465047955513	0	0.7654	0.5377	0.8812	0.8467	0.5748
+440	diabetes mellitus, type 1&lipid metabolism disorders	1	0.49491748213768005	0	0.7654	0.5377	0.8812	0.8467	0.5748
+441	heart defects, congenital&motor neuron disease	1	0.4956440031528473	0	0.7654	0.5377	0.8812	0.8467	0.5748
+442	carbohydrate metabolism, inborn errors&joint diseases	1	0.9535518288612366	1	0.7654	0.5377	0.8812	0.8467	0.5748
+443	osteoporosis&proteinuria	1	0.9998587369918823	1	0.7654	0.5377	0.8812	0.8467	0.5748
+444	cardiovascular diseases&muscular diseases	1	0.9299503564834595	1	0.7654	0.5377	0.8812	0.8467	0.5748
+445	ankylosis&hyperthyroidism	1	0.6521849036216736	1	0.7654	0.5377	0.8812	0.8467	0.5748
+446	metal metabolism, inborn errors&spondylitis, ankylosing	1	0.9202582836151123	1	0.7654	0.5377	0.8812	0.8467	0.5748
+447	cardiovascular diseases&spinocerebellar ataxias	1	0.8176586031913757	1	0.7654	0.5377	0.8812	0.8467	0.5748
+448	asthma&movement disorders	1	0.7071319818496704	1	0.7654	0.5377	0.8812	0.8467	0.5748
+449	basal ganglia diseases&dementia	1	0.7557160258293152	1	0.7654	0.5377	0.8812	0.8467	0.5748
+450	anemia, aplastic&cerebellar ataxia	1	0.9101771712303162	1	0.7654	0.5377	0.8812	0.8467	0.5748
+451	graves disease&hypotrichosis	1	0.968056321144104	1	0.7654	0.5377	0.8812	0.8467	0.5748
+452	genital diseases, male&glomerulonephritis	1	0.2975459396839142	0	0.7654	0.5377	0.8812	0.8467	0.5748
+453	heart arrest&lymphoma	1	0.20259398221969604	0	0.7654	0.5377	0.8812	0.8467	0.5748
+454	ankylosis&vasculitis	1	0.6617130637168884	1	0.7654	0.5377	0.8812	0.8467	0.5748
+455	polyneuropathies&varicose veins	1	0.277992844581604	0	0.7654	0.5377	0.8812	0.8467	0.5748
+456	arthritis, rheumatoid&blood coagulation disorders, inherited	1	0.9386027455329895	1	0.7654	0.5377	0.8812	0.8467	0.5748
+457	genital diseases, male&spastic paraplegia, hereditary	1	0.6962630152702332	1	0.7654	0.5377	0.8812	0.8467	0.5748
+458	bone diseases, metabolic&leukemia, b-cell	1	0.7432900071144104	1	0.7654	0.5377	0.8812	0.8467	0.5748
+459	cardiomyopathies&hypersensitivity	1	0.8964216709136963	1	0.7654	0.5377	0.8812	0.8467	0.5748
+460	cardiomyopathy, hypertrophic&hypersensitivity	1	0.8817342519760132	1	0.7654	0.5377	0.8812	0.8467	0.5748
+461	arthritis&cranial nerve diseases	1	0.8412365913391113	1	0.7654	0.5377	0.8812	0.8467	0.5748
+462	cardiovascular diseases&hair diseases	1	0.8502983450889587	1	0.7654	0.5377	0.8812	0.8467	0.5748
+463	arterial occlusive diseases&movement disorders	1	0.6304150819778442	1	0.7654	0.5377	0.8812	0.8467	0.5748
+464	blood coagulation disorders&motor neuron disease	1	0.9995954632759094	1	0.7654	0.5377	0.8812	0.8467	0.5748
+465	crohn disease&macular degeneration	1	0.7076655626296997	1	0.7654	0.5377	0.8812	0.8467	0.5748
+466	anemia&goiter	1	0.9989209175109863	1	0.7654	0.5377	0.8812	0.8467	0.5748
+467	cerebellar ataxia&genital diseases, male	1	0.42002859711647034	0	0.7654	0.5377	0.8812	0.8467	0.5748
+468	ectodermal dysplasia&myocardial ischemia	1	0.28572025895118713	0	0.7654	0.5377	0.8812	0.8467	0.5748
+469	cholestasis&glomerulonephritis	1	0.27317750453948975	0	0.7654	0.5377	0.8812	0.8467	0.5748
+470	colitis, ulcerative&genital diseases, female	1	0.011773902922868729	0	0.7654	0.5377	0.8812	0.8467	0.5748
+471	basal ganglia diseases&malabsorption syndromes	1	0.9076985716819763	1	0.7654	0.5377	0.8812	0.8467	0.5748
+472	basal ganglia diseases&thyroid diseases	1	0.8983379602432251	1	0.7654	0.5377	0.8812	0.8467	0.5748
+473	glioma&psoriasis	1	0.03258192166686058	0	0.7654	0.5377	0.8812	0.8467	0.5748
+474	exophthalmos&osteoporosis	1	0.9882596731185913	1	0.7654	0.5377	0.8812	0.8467	0.5748
+475	carcinoma, renal cell&hypothalamic diseases	1	0.6408013105392456	1	0.7654	0.5377	0.8812	0.8467	0.5748
+476	cerebellar ataxia&macular degeneration	1	0.9900177121162415	1	0.7654	0.5377	0.8812	0.8467	0.5748
+477	basal ganglia diseases&macular degeneration	1	0.8658754229545593	1	0.7654	0.5377	0.8812	0.8467	0.5748
+478	exophthalmos&sleep disorders	1	0.7953677177429199	1	0.7654	0.5377	0.8812	0.8467	0.5748
+479	crohn disease&spondylarthropathies	1	0.8572619557380676	1	0.7654	0.5377	0.8812	0.8467	0.5748
+480	blood coagulation disorders&respiratory tract diseases	1	0.9519609808921814	1	0.7654	0.5377	0.8812	0.8467	0.5748
+481	lymphoma&proteinuria	1	0.9898471236228943	1	0.7654	0.5377	0.8812	0.8467	0.5748
+482	bone diseases, metabolic&pancreatic diseases	1	0.8810835480690002	1	0.7654	0.5377	0.8812	0.8467	0.5748
+483	diabetes mellitus, type 2&dwarfism	1	0.40590789914131165	0	0.7654	0.5377	0.8812	0.8467	0.5748
+484	cardiomyopathies&esophageal diseases	1	0.46119561791419983	0	0.7654	0.5377	0.8812	0.8467	0.5748
+485	cardiomyopathy, hypertrophic&esophageal diseases	1	0.3734488785266876	0	0.7654	0.5377	0.8812	0.8467	0.5748
+486	leprosy&leukemia, myeloid, acute	1	0.4468213617801666	0	0.7654	0.5377	0.8812	0.8467	0.5748
+487	arrhythmias, cardiac&lupus erythematosus, systemic	1	0.943124532699585	1	0.7654	0.5377	0.8812	0.8467	0.5748
+488	cardiomyopathies&pancreatic diseases	1	0.7771466970443726	1	0.7654	0.5377	0.8812	0.8467	0.5748
+489	spondylitis&vasculitis	1	0.9487261176109314	1	0.7654	0.5377	0.8812	0.8467	0.5748
+490	anemia, aplastic&hypersensitivity	1	0.48764768242836	0	0.7654	0.5377	0.8812	0.8467	0.5748
+491	adenocarcinoma&neoplasms	1	0.22097563743591309	0	0.7654	0.5377	0.8812	0.8467	0.5748
+492	cardiovascular diseases&nervous system diseases	1	0.4560588598251343	0	0.7654	0.5377	0.8812	0.8467	0.5748
+493	cardiomegaly&pancreatic diseases	1	0.776549756526947	1	0.7654	0.5377	0.8812	0.8467	0.5748
+494	gout&spinocerebellar ataxias	1	0.6406556367874146	1	0.7654	0.5377	0.8812	0.8467	0.5748
+495	disorders of sex development&esophageal diseases	1	0.6921195387840271	1	0.7654	0.5377	0.8812	0.8467	0.5748
+496	movement disorders&ovarian neoplasms	1	0.17093254625797272	0	0.7654	0.5377	0.8812	0.8467	0.5748
+497	heart arrest&stomatognathic diseases	1	0.21003784239292145	0	0.7654	0.5377	0.8812	0.8467	0.5748
+498	head and neck neoplasms&movement disorders	1	0.08117759227752686	0	0.7654	0.5377	0.8812	0.8467	0.5748
+499	anemia&spinocerebellar ataxias	1	0.95660400390625	1	0.7654	0.5377	0.8812	0.8467	0.5748
+500	charcot-marie-tooth disease&prostatic neoplasms	1	0.6737545132637024	1	0.7654	0.5377	0.8812	0.8467	0.5748
+501	heart defects, congenital&lung diseases, obstructive	1	0.7147665023803711	1	0.7654	0.5377	0.8812	0.8467	0.5748
+502	bile duct diseases&peripheral nervous system diseases	1	0.5352687239646912	0	0.7654	0.5377	0.8812	0.8467	0.5748
+503	dementia&diabetes mellitus, type 1	1	0.7679594159126282	1	0.7654	0.5377	0.8812	0.8467	0.5748
+504	anemia, hemolytic&carcinoma, renal cell	1	0.7807874083518982	1	0.7654	0.5377	0.8812	0.8467	0.5748
+505	albuminuria&coronary disease	1	0.9637634754180908	1	0.7654	0.5377	0.8812	0.8467	0.5748
+506	coronary disease&proteinuria	1	0.9637634754180908	1	0.7654	0.5377	0.8812	0.8467	0.5748
+507	gout&head and neck neoplasms	1	0.31144505739212036	0	0.7654	0.5377	0.8812	0.8467	0.5748
+508	arrhythmias, cardiac&celiac disease	1	0.9690890312194824	1	0.7654	0.5377	0.8812	0.8467	0.5748
+509	arterial occlusive diseases&rheumatic diseases	1	0.8248169422149658	1	0.7654	0.5377	0.8812	0.8467	0.5748
+510	ankylosis&breast diseases	1	0.21133597195148468	0	0.7654	0.5377	0.8812	0.8467	0.5748
+511	cardiovascular diseases&colitis, ulcerative	1	0.9411342144012451	1	0.7654	0.5377	0.8812	0.8467	0.5748
+512	intestinal neoplasms&lymphatic diseases	1	0.6414312720298767	1	0.7654	0.5377	0.8812	0.8467	0.5748
+513	cardiomegaly&macular degeneration	1	0.07475440949201584	0	0.7654	0.5377	0.8812	0.8467	0.5748
+514	blood coagulation disorders&osteoporosis	1	0.9919629096984863	1	0.7654	0.5377	0.8812	0.8467	0.5748
+515	endocrine system diseases&glioma	1	0.4714463949203491	0	0.7654	0.5377	0.8812	0.8467	0.5748
+516	diabetes mellitus, type 1&hemorrhagic disorders	1	0.9364126324653625	1	0.7654	0.5377	0.8812	0.8467	0.5748
+517	asthma&diabetes mellitus, type 2	1	0.6703539490699768	1	0.7654	0.5377	0.8812	0.8467	0.5748
+518	goiter&lipid metabolism disorders	1	0.4556354582309723	0	0.7654	0.5377	0.8812	0.8467	0.5748
+519	gout&retinitis pigmentosa	1	0.7829713821411133	1	0.7654	0.5377	0.8812	0.8467	0.5748
+520	adenocarcinoma&genital diseases, male	1	0.2024107575416565	0	0.7654	0.5377	0.8812	0.8467	0.5748
+521	arthritis&cholestasis	1	0.8144720792770386	1	0.7654	0.5377	0.8812	0.8467	0.5748
+522	dementia&varicose veins	1	0.49496912956237793	0	0.7654	0.5377	0.8812	0.8467	0.5748
+523	neoplasms, connective and soft tissue&spondylarthropathies	1	0.4936254024505615	0	0.7654	0.5377	0.8812	0.8467	0.5748
+524	carcinoma, renal cell&hypersensitivity	1	0.12701642513275146	0	0.7654	0.5377	0.8812	0.8467	0.5748
+525	diabetes mellitus, type 1&neuroendocrine tumors	1	0.6278402805328369	1	0.7654	0.5377	0.8812	0.8467	0.5748
+526	leukemia&prostatic neoplasms	1	0.20850640535354614	0	0.7654	0.5377	0.8812	0.8467	0.5748
+527	amyotrophic lateral sclerosis&spinocerebellar ataxias	1	0.9944900274276733	1	0.7654	0.5377	0.8812	0.8467	0.5748
+528	dwarfism&thyroid diseases	1	0.25096097588539124	0	0.7654	0.5377	0.8812	0.8467	0.5748
+529	hypothalamic diseases&liver cirrhosis, biliary	1	0.8544013500213623	1	0.7654	0.5377	0.8812	0.8467	0.5748
+530	demyelinating diseases&head and neck neoplasms	1	0.07723324745893478	0	0.7654	0.5377	0.8812	0.8467	0.5748
+531	arterial occlusive diseases&dementia	1	0.613382875919342	1	0.7654	0.5377	0.8812	0.8467	0.5748
+532	blood coagulation disorders&hereditary sensory and motor neuropathy	1	0.9463720917701721	1	0.7654	0.5377	0.8812	0.8467	0.5748
+533	alzheimer disease&carbohydrate metabolism, inborn errors	1	0.6706336736679077	1	0.7654	0.5377	0.8812	0.8467	0.5748
+534	lung diseases, obstructive&parkinsonian disorders	1	0.7262130379676819	1	0.7654	0.5377	0.8812	0.8467	0.5748
+535	basal ganglia diseases&rheumatic diseases	1	0.41382014751434326	0	0.7654	0.5377	0.8812	0.8467	0.5748
+536	macular degeneration&parkinsonian disorders	1	0.866837739944458	1	0.7654	0.5377	0.8812	0.8467	0.5748
+537	myocardial ischemia&respiratory tract diseases	1	0.7430554032325745	1	0.7654	0.5377	0.8812	0.8467	0.5748
+538	alzheimer disease&endocrine system diseases	1	0.6066889762878418	1	0.7654	0.5377	0.8812	0.8467	0.5748
+539	anemia&stomatognathic diseases	1	0.90528804063797	1	0.7654	0.5377	0.8812	0.8467	0.5748
+540	cardiomyopathies&retinitis pigmentosa	1	0.7537304162979126	1	0.7654	0.5377	0.8812	0.8467	0.5748
+541	epilepsy&esophageal diseases	1	0.9792891144752502	1	0.7654	0.5377	0.8812	0.8467	0.5748
+542	blood platelet disorders&myocardial ischemia	1	0.33895424008369446	0	0.7654	0.5377	0.8812	0.8467	0.5748
+543	amyotrophic lateral sclerosis&vasculitis	1	0.5778999328613281	1	0.7654	0.5377	0.8812	0.8467	0.5748
+544	colitis, ulcerative&lung diseases, obstructive	1	0.9599072933197021	1	0.7654	0.5377	0.8812	0.8467	0.5748
+545	lipid metabolism disorders&vasculitis	1	0.4434879720211029	0	0.7654	0.5377	0.8812	0.8467	0.5748
+546	diabetes mellitus, type 1&leukemia, lymphocytic, chronic, b-cell	1	0.8021945953369141	1	0.7654	0.5377	0.8812	0.8467	0.5748
+547	cardiomegaly&spondylitis, ankylosing	1	0.2568663954734802	0	0.7654	0.5377	0.8812	0.8467	0.5748
+548	goiter&rheumatic diseases	1	0.8196803331375122	1	0.7654	0.5377	0.8812	0.8467	0.5748
+549	bone diseases&muscular dystrophies	1	0.7390803694725037	1	0.7654	0.5377	0.8812	0.8467	0.5748
+550	amyotrophic lateral sclerosis&myeloproliferative disorders	1	0.990707516670227	1	0.7654	0.5377	0.8812	0.8467	0.5748
+551	motor neuron disease&myeloproliferative disorders	1	0.9905519485473633	1	0.7654	0.5377	0.8812	0.8467	0.5748
+552	colitis, ulcerative&diabetes mellitus, type 1	1	0.9407777786254883	1	0.7654	0.5377	0.8812	0.8467	0.5748
+553	breast neoplasms&vascular diseases	1	0.09684741497039795	0	0.7654	0.5377	0.8812	0.8467	0.5748
+554	nervous system diseases&spondylarthropathies	1	0.7917976975440979	1	0.7654	0.5377	0.8812	0.8467	0.5748
+555	cranial nerve diseases&muscular dystrophies	1	0.36459049582481384	0	0.7654	0.5377	0.8812	0.8467	0.5748
+556	breast diseases&rheumatic diseases	1	0.24230438470840454	0	0.7654	0.5377	0.8812	0.8467	0.5748
+557	myeloproliferative disorders&spastic paraplegia, hereditary	1	0.006877892650663853	0	0.7654	0.5377	0.8812	0.8467	0.5748
+558	cardiovascular diseases&charcot-marie-tooth disease	1	0.675750195980072	1	0.7654	0.5377	0.8812	0.8467	0.5748
+559	lupus erythematosus, systemic&macular degeneration	1	0.8749450445175171	1	0.7654	0.5377	0.8812	0.8467	0.5748
+560	graves disease&lymphatic diseases	1	0.5591314435005188	0	0.7654	0.5377	0.8812	0.8467	0.5748
+561	liver cirrhosis&stomatognathic diseases	1	0.3861808478832245	0	0.7654	0.5377	0.8812	0.8467	0.5748
+562	cardiomegaly&uveitis	1	0.15588785707950592	0	0.7654	0.5377	0.8812	0.8467	0.5748
+563	goiter&heart defects, congenital	1	0.5097256302833557	0	0.7654	0.5377	0.8812	0.8467	0.5748
+564	nervous system diseases&spondylitis	1	0.7917976975440979	1	0.7654	0.5377	0.8812	0.8467	0.5748
+565	celiac disease&goiter	1	0.9766225814819336	1	0.7654	0.5377	0.8812	0.8467	0.5748
+566	endocrine system diseases&lupus erythematosus, systemic	1	0.7073218822479248	1	0.7654	0.5377	0.8812	0.8467	0.5748
+567	anemia, aplastic&rheumatic diseases	1	0.5649070739746094	0	0.7654	0.5377	0.8812	0.8467	0.5748
+568	liver cirrhosis, biliary&spondylitis	1	0.9308516383171082	1	0.7654	0.5377	0.8812	0.8467	0.5748
+569	hemorrhagic disorders&intestinal neoplasms	1	0.43415430188179016	0	0.7654	0.5377	0.8812	0.8467	0.5748
+570	breast diseases&craniofacial abnormalities	1	0.24553348124027252	0	0.7654	0.5377	0.8812	0.8467	0.5748
+571	arterial occlusive diseases&endocrine system diseases	1	0.3478272557258606	0	0.7654	0.5377	0.8812	0.8467	0.5748
+572	bile duct diseases&leukemia, myeloid, acute	1	0.17554479837417603	0	0.7654	0.5377	0.8812	0.8467	0.5748
+573	dementia&vasculitis	1	0.5450809001922607	0	0.7654	0.5377	0.8812	0.8467	0.5748
+574	leukemia, myeloid, acute&movement disorders	1	0.32051149010658264	0	0.7654	0.5377	0.8812	0.8467	0.5748
+575	bone diseases&myocardial infarction	1	0.473448783159256	0	0.7654	0.5377	0.8812	0.8467	0.5748
+576	lung diseases, obstructive&precursor cell lymphoblastic leukemia-lymphoma	1	0.5058248043060303	0	0.7654	0.5377	0.8812	0.8467	0.5748
+577	blood coagulation disorders&dementia	1	0.16108940541744232	0	0.7654	0.5377	0.8812	0.8467	0.5748
+578	glomerulonephritis&thyroid diseases	1	0.7579410672187805	1	0.7654	0.5377	0.8812	0.8467	0.5748
+579	amyotrophic lateral sclerosis&rheumatic diseases	1	0.7630184888839722	1	0.7654	0.5377	0.8812	0.8467	0.5748
+580	genital diseases, male&hair diseases	1	0.15877091884613037	0	0.7654	0.5377	0.8812	0.8467	0.5748
+581	death, sudden&diabetes mellitus, type 1	1	0.8418601155281067	1	0.7654	0.5377	0.8812	0.8467	0.5748
+582	coronary artery disease&hyperthyroidism	1	0.11394909769296646	0	0.7654	0.5377	0.8812	0.8467	0.5748
+583	arthritis&endocrine system diseases	1	0.6891503930091858	1	0.7654	0.5377	0.8812	0.8467	0.5748
+584	hypersensitivity&neoplasms, germ cell and embryonal	1	0.716818630695343	1	0.7654	0.5377	0.8812	0.8467	0.5748
+585	cardiomyopathy, hypertrophic&spondylarthropathies	1	0.9697950482368469	1	0.7654	0.5377	0.8812	0.8467	0.5748
+586	crohn disease&epilepsy	1	0.41070446372032166	0	0.7654	0.5377	0.8812	0.8467	0.5748
+587	leukemia, lymphocytic, chronic, b-cell&muscular dystrophies	1	0.3945560157299042	0	0.7654	0.5377	0.8812	0.8467	0.5748
+588	adenocarcinoma&hereditary sensory and motor neuropathy	1	0.3379397988319397	0	0.7654	0.5377	0.8812	0.8467	0.5748
+589	charcot-marie-tooth disease&myocardial infarction	1	0.9716054201126099	1	0.7654	0.5377	0.8812	0.8467	0.5748
+590	cardiomyopathy, hypertrophic&leukemia, b-cell	1	0.20341920852661133	0	0.7654	0.5377	0.8812	0.8467	0.5748
+591	arterial occlusive diseases&hypothalamic diseases	1	0.9908768534660339	1	0.7654	0.5377	0.8812	0.8467	0.5748
+592	alzheimer disease&macular degeneration	1	0.7539401054382324	1	0.7654	0.5377	0.8812	0.8467	0.5748
+593	carcinoma, renal cell&hypotrichosis	1	0.4736008644104004	0	0.7654	0.5377	0.8812	0.8467	0.5748
+594	lung diseases, obstructive&varicose veins	1	0.928666353225708	1	0.7654	0.5377	0.8812	0.8467	0.5748
+595	alzheimer disease&anemia, hemolytic	1	0.7748835682868958	1	0.7654	0.5377	0.8812	0.8467	0.5748
+596	basal ganglia diseases&cardiomegaly	1	0.06706893444061279	0	0.7654	0.5377	0.8812	0.8467	0.5748
+597	uveitis&vasculitis	1	0.6669728755950928	1	0.7654	0.5377	0.8812	0.8467	0.5748
+598	amyotrophic lateral sclerosis&cardiomyopathies	1	0.8753195405006409	1	0.7654	0.5377	0.8812	0.8467	0.5748
+599	heart arrest&leukemia, lymphocytic, chronic, b-cell	1	0.6225456595420837	1	0.7654	0.5377	0.8812	0.8467	0.5748
+600	epilepsy&goiter	1	0.9577414989471436	1	0.7654	0.5377	0.8812	0.8467	0.5748
+601	cranial nerve diseases&pancreatic diseases	1	0.2130434215068817	0	0.7654	0.5377	0.8812	0.8467	0.5748
+602	goiter&ovarian diseases	1	0.7066081166267395	1	0.7654	0.5377	0.8812	0.8467	0.5748
+603	spinocerebellar degenerations&spondylarthropathies	1	0.928317129611969	1	0.7654	0.5377	0.8812	0.8467	0.5748
+604	colorectal neoplasms&spondylitis	1	0.36330646276474	0	0.7654	0.5377	0.8812	0.8467	0.5748
+605	asthma&varicose veins	1	0.8013854622840881	1	0.7654	0.5377	0.8812	0.8467	0.5748
+606	head and neck neoplasms&spinal cord diseases	1	0.5803104043006897	1	0.7654	0.5377	0.8812	0.8467	0.5748
+607	cardiovascular diseases&leukemia, lymphocytic, chronic, b-cell	1	0.779219925403595	1	0.7654	0.5377	0.8812	0.8467	0.5748
+608	esophageal diseases&leukemia, lymphocytic, chronic, b-cell	1	0.8764721751213074	1	0.7654	0.5377	0.8812	0.8467	0.5748
+609	colitis, ulcerative&epilepsy	1	0.9906260967254639	1	0.7654	0.5377	0.8812	0.8467	0.5748
+610	esophageal diseases&precursor cell lymphoblastic leukemia-lymphoma	1	0.9947422742843628	1	0.7654	0.5377	0.8812	0.8467	0.5748
+611	cerebellar ataxia&leukemia, b-cell	1	0.6174033284187317	1	0.7654	0.5377	0.8812	0.8467	0.5748
+612	liver cirrhosis, biliary&movement disorders	1	0.7743747234344482	1	0.7654	0.5377	0.8812	0.8467	0.5748
+613	arterial occlusive diseases&mycobacterium infections	1	0.7514086365699768	1	0.7654	0.5377	0.8812	0.8467	0.5748
+614	intellectual disability&pancreatic diseases	1	0.653430163860321	1	0.7654	0.5377	0.8812	0.8467	0.5748
+615	genital diseases, female&vasculitis	1	0.17327925562858582	0	0.7654	0.5377	0.8812	0.8467	0.5748
+616	cholestasis&rheumatic diseases	1	0.5773521661758423	1	0.7654	0.5377	0.8812	0.8467	0.5748
+617	cardiomyopathy, hypertrophic&colorectal neoplasms	1	0.15864339470863342	0	0.7654	0.5377	0.8812	0.8467	0.5748
+618	arthritis&leukemia, b-cell	1	0.628869354724884	1	0.7654	0.5377	0.8812	0.8467	0.5748
+619	hereditary sensory and motor neuropathy&thyroid diseases	1	0.5542927980422974	0	0.7654	0.5377	0.8812	0.8467	0.5748
+620	blood coagulation disorders, inherited&dyskinesias	1	0.9716350436210632	1	0.7654	0.5377	0.8812	0.8467	0.5748
+621	metal metabolism, inborn errors&spastic paraplegia, hereditary	1	0.6366609930992126	1	0.7654	0.5377	0.8812	0.8467	0.5748
+622	arthritis&leukemia, lymphocytic, chronic, b-cell	1	0.6289271116256714	1	0.7654	0.5377	0.8812	0.8467	0.5748
+623	lysosomal storage diseases&myocardial infarction	1	0.2593858242034912	0	0.7654	0.5377	0.8812	0.8467	0.5748
+624	lysosomal storage diseases&myocardial ischemia	1	0.07087200880050659	0	0.7654	0.5377	0.8812	0.8467	0.5748
+625	ankylosis&parkinsonian disorders	1	0.8512802720069885	1	0.7654	0.5377	0.8812	0.8467	0.5748
+626	diabetes mellitus, type 2&spastic paraplegia, hereditary	1	0.13636009395122528	0	0.7654	0.5377	0.8812	0.8467	0.5748
+627	glomerulonephritis&lymphatic diseases	0	0.3718917667865753	0	0.7654	0.5377	0.8812	0.8467	0.5748
+628	head and neck neoplasms&leukemia	0	0.4749264717102051	0	0.7654	0.5377	0.8812	0.8467	0.5748
+629	leukemia, lymphocytic, chronic, b-cell&lipidoses	0	0.2365744411945343	0	0.7654	0.5377	0.8812	0.8467	0.5748
+630	asthma&leprosy	0	0.7785317301750183	1	0.7654	0.5377	0.8812	0.8467	0.5748
+631	asthma&nervous system diseases	0	0.6495354175567627	1	0.7654	0.5377	0.8812	0.8467	0.5748
+632	amino acid metabolism, inborn errors&lipid metabolism disorders	0	0.859548032283783	1	0.7654	0.5377	0.8812	0.8467	0.5748
+633	leukemia, lymphocytic, chronic, b-cell&macular degeneration	0	0.1685493141412735	0	0.7654	0.5377	0.8812	0.8467	0.5748
+634	leprosy&prostatic neoplasms	0	0.10590759664773941	0	0.7654	0.5377	0.8812	0.8467	0.5748
+635	lupus erythematosus, systemic&ovarian neoplasms	0	0.1350802332162857	0	0.7654	0.5377	0.8812	0.8467	0.5748
+636	heart arrest&intestinal neoplasms	0	0.5221165418624878	0	0.7654	0.5377	0.8812	0.8467	0.5748
+637	macular degeneration&metal metabolism, inborn errors	0	0.9150248169898987	1	0.7654	0.5377	0.8812	0.8467	0.5748
+638	alzheimer disease&vasculitis	0	0.550754964351654	0	0.7654	0.5377	0.8812	0.8467	0.5748
+639	breast neoplasms&retinitis pigmentosa	0	0.183670312166214	0	0.7654	0.5377	0.8812	0.8467	0.5748
+640	diabetes mellitus, type 2&glioma	0	0.045257698744535446	0	0.7654	0.5377	0.8812	0.8467	0.5748
+641	blood coagulation disorders&intellectual disability	0	0.9961209893226624	1	0.7654	0.5377	0.8812	0.8467	0.5748
+642	graves disease&multiple sclerosis	0	0.3451818525791168	0	0.7654	0.5377	0.8812	0.8467	0.5748
+643	polyneuropathies&prostatic neoplasms	0	0.9009614586830139	1	0.7654	0.5377	0.8812	0.8467	0.5748
+644	retinitis pigmentosa&rheumatic diseases	0	0.8166556358337402	1	0.7654	0.5377	0.8812	0.8467	0.5748
+645	malformations of cortical development&pancreatic diseases	0	0.19834597408771515	0	0.7654	0.5377	0.8812	0.8467	0.5748
+646	amyotrophic lateral sclerosis&anemia, aplastic	0	0.8637519478797913	1	0.7654	0.5377	0.8812	0.8467	0.5748
+647	carcinoma, renal cell&heart arrest	0	0.19211336970329285	0	0.7654	0.5377	0.8812	0.8467	0.5748
+648	bile duct diseases&cranial nerve diseases	0	0.29589468240737915	0	0.7654	0.5377	0.8812	0.8467	0.5748
+649	liver cirrhosis&ovarian neoplasms	0	0.08471035212278366	0	0.7654	0.5377	0.8812	0.8467	0.5748
+650	leukemia, lymphocytic, chronic, b-cell&parkinsonian disorders	0	0.054491713643074036	0	0.7654	0.5377	0.8812	0.8467	0.5748
+651	cardiomyopathy, hypertrophic&genital diseases, male	0	0.03295458108186722	0	0.7654	0.5377	0.8812	0.8467	0.5748
+652	lymphoma&varicose veins	0	0.7089267373085022	1	0.7654	0.5377	0.8812	0.8467	0.5748
+653	colorectal neoplasms&prostatic neoplasms	0	0.14994071424007416	0	0.7654	0.5377	0.8812	0.8467	0.5748
+654	gastroenteritis&myocardial infarction	0	0.8431293964385986	1	0.7654	0.5377	0.8812	0.8467	0.5748
+655	myocardial ischemia&spastic paraplegia, hereditary	0	0.004868299700319767	0	0.7654	0.5377	0.8812	0.8467	0.5748
+656	cardiovascular diseases&dyssomnias	0	0.7906338572502136	1	0.7654	0.5377	0.8812	0.8467	0.5748
+657	lymphoma&motor neuron disease	0	0.19412393867969513	0	0.7654	0.5377	0.8812	0.8467	0.5748
+658	cardiomyopathy, hypertrophic&ovarian diseases	0	0.07693684101104736	0	0.7654	0.5377	0.8812	0.8467	0.5748
+659	cranial nerve diseases&graves disease	0	0.6687951683998108	1	0.7654	0.5377	0.8812	0.8467	0.5748
+660	cardiomegaly&leukemia, myeloid, acute	0	0.3307986557483673	0	0.7654	0.5377	0.8812	0.8467	0.5748
+661	muscular diseases&myocardial infarction	0	0.22784321010112762	0	0.7654	0.5377	0.8812	0.8467	0.5748
+662	dementia&leprosy	0	0.4780111014842987	0	0.7654	0.5377	0.8812	0.8467	0.5748
+663	goiter&sleep disorders	0	0.7945660352706909	1	0.7654	0.5377	0.8812	0.8467	0.5748
+664	blood coagulation disorders, inherited&macular degeneration	0	0.44807666540145874	0	0.7654	0.5377	0.8812	0.8467	0.5748
+665	behcet syndrome&myocardial ischemia	0	0.027836188673973083	0	0.7654	0.5377	0.8812	0.8467	0.5748
+666	movement disorders&respiratory tract diseases	0	0.6407154202461243	1	0.7654	0.5377	0.8812	0.8467	0.5748
+667	arthritis, rheumatoid&cranial nerve diseases	0	0.7927551865577698	1	0.7654	0.5377	0.8812	0.8467	0.5748
+668	leukemia, b-cell&malabsorption syndromes	0	0.5036320686340332	0	0.7654	0.5377	0.8812	0.8467	0.5748
+669	anemia&demyelinating diseases	0	0.0025636882055550814	0	0.7654	0.5377	0.8812	0.8467	0.5748
+670	breast neoplasms&spondylarthropathies	0	0.26570168137550354	0	0.7654	0.5377	0.8812	0.8467	0.5748
+671	bile duct diseases&nervous system diseases	0	0.5523550510406494	0	0.7654	0.5377	0.8812	0.8467	0.5748
+672	amyotrophic lateral sclerosis&hypersensitivity	0	0.6792029142379761	1	0.7654	0.5377	0.8812	0.8467	0.5748
+673	diabetes mellitus, type 2&neoplasms	0	0.21804207563400269	0	0.7654	0.5377	0.8812	0.8467	0.5748
+674	endocrine system diseases&leukemia, lymphocytic, chronic, b-cell	0	0.5504258275032043	0	0.7654	0.5377	0.8812	0.8467	0.5748
+675	dementia&purine-pyrimidine metabolism, inborn errors	0	0.10166189074516296	0	0.7654	0.5377	0.8812	0.8467	0.5748
+676	aneurysm&joint diseases	0	0.6471041440963745	1	0.7654	0.5377	0.8812	0.8467	0.5748
+677	neoplasms, germ cell and embryonal&polyneuropathies	0	0.04126625508069992	0	0.7654	0.5377	0.8812	0.8467	0.5748
+678	cerebellar ataxia&heart defects, congenital	0	0.3702322244644165	0	0.7654	0.5377	0.8812	0.8467	0.5748
+679	dyssomnias&heart arrest	0	0.08809611201286316	0	0.7654	0.5377	0.8812	0.8467	0.5748
+680	adrenal gland diseases&disorders of sex development	0	0.020647792145609856	0	0.7654	0.5377	0.8812	0.8467	0.5748
+681	neoplasms&nervous system diseases	0	0.08131401985883713	0	0.7654	0.5377	0.8812	0.8467	0.5748
+682	bile duct diseases&spinocerebellar ataxias	0	0.4755335748195648	0	0.7654	0.5377	0.8812	0.8467	0.5748
+683	arterial occlusive diseases&bile duct diseases	0	0.16669447720050812	0	0.7654	0.5377	0.8812	0.8467	0.5748
+684	endocrine system diseases&intestinal neoplasms	0	0.5304970145225525	0	0.7654	0.5377	0.8812	0.8467	0.5748
+685	diabetes mellitus, type 2&sleep disorders	0	0.1664678305387497	0	0.7654	0.5377	0.8812	0.8467	0.5748
+686	colitis, ulcerative&spinocerebellar ataxias	0	0.19193561375141144	0	0.7654	0.5377	0.8812	0.8467	0.5748
+687	malabsorption syndromes&myocardial ischemia	0	0.09972367435693741	0	0.7654	0.5377	0.8812	0.8467	0.5748
+688	anemia, hemolytic&lipid metabolism disorders	0	0.9349584579467773	1	0.7654	0.5377	0.8812	0.8467	0.5748
+689	diabetes mellitus, type 1&lymphatic diseases	0	0.4221281409263611	0	0.7654	0.5377	0.8812	0.8467	0.5748
+690	asthma&liver cirrhosis, biliary	0	0.43860992789268494	0	0.7654	0.5377	0.8812	0.8467	0.5748
+691	cardiomyopathy, hypertrophic&dementia	0	0.2757267355918884	0	0.7654	0.5377	0.8812	0.8467	0.5748
+692	blood platelet disorders&goiter	0	0.9689074754714966	1	0.7654	0.5377	0.8812	0.8467	0.5748
+693	heart arrest&joint diseases	0	0.8917415142059326	1	0.7654	0.5377	0.8812	0.8467	0.5748
+694	leukemia, myeloid, acute&neoplasms, germ cell and embryonal	0	0.08600884675979614	0	0.7654	0.5377	0.8812	0.8467	0.5748
+695	amyotrophic lateral sclerosis&aneurysm	0	0.25735047459602356	0	0.7654	0.5377	0.8812	0.8467	0.5748
+696	cardiomegaly&lymphoma	0	0.5977139472961426	1	0.7654	0.5377	0.8812	0.8467	0.5748
+697	arthritis, rheumatoid&parkinsonian disorders	0	0.4834165871143341	0	0.7654	0.5377	0.8812	0.8467	0.5748
+698	arthritis, rheumatoid&myocardial ischemia	0	0.4501442015171051	0	0.7654	0.5377	0.8812	0.8467	0.5748
+699	arthritis, rheumatoid&coronary artery disease	0	0.16177953779697418	0	0.7654	0.5377	0.8812	0.8467	0.5748
+700	coronary artery disease&spastic paraplegia, hereditary	0	0.024645110592246056	0	0.7654	0.5377	0.8812	0.8467	0.5748
+701	diabetes mellitus, type 1&head and neck neoplasms	0	0.6532027721405029	1	0.7654	0.5377	0.8812	0.8467	0.5748
+702	movement disorders&myocardial ischemia	0	0.09691350162029266	0	0.7654	0.5377	0.8812	0.8467	0.5748
+703	asthma&hemorrhagic disorders	0	0.4929019808769226	0	0.7654	0.5377	0.8812	0.8467	0.5748
+704	leukemia, myeloid, acute&varicose veins	0	0.43456652760505676	0	0.7654	0.5377	0.8812	0.8467	0.5748
+705	breast diseases&diabetes mellitus, type 1	0	0.28635117411613464	0	0.7654	0.5377	0.8812	0.8467	0.5748
+706	diabetes mellitus, type 1&hypotrichosis	0	0.9179635643959045	1	0.7654	0.5377	0.8812	0.8467	0.5748
+707	carcinoma, renal cell&mycobacterium infections	0	0.8688080906867981	1	0.7654	0.5377	0.8812	0.8467	0.5748
+708	heart arrest&pancreatic diseases	0	0.9715105891227722	1	0.7654	0.5377	0.8812	0.8467	0.5748
+709	glioma&parkinsonian disorders	0	0.7226372361183167	1	0.7654	0.5377	0.8812	0.8467	0.5748
+710	bone diseases, metabolic&lipid metabolism disorders	0	0.4383067786693573	0	0.7654	0.5377	0.8812	0.8467	0.5748
+711	cardiomyopathies&osteoporosis	0	0.11878009885549545	0	0.7654	0.5377	0.8812	0.8467	0.5748
+712	cardiomyopathies&lymphatic diseases	0	0.1951126903295517	0	0.7654	0.5377	0.8812	0.8467	0.5748
+713	genital diseases, male&peripheral nervous system diseases	0	0.8230394124984741	1	0.7654	0.5377	0.8812	0.8467	0.5748
+714	intellectual disability&ovarian neoplasms	0	0.46160027384757996	0	0.7654	0.5377	0.8812	0.8467	0.5748
+715	heart arrest&intellectual disability	0	0.9791143536567688	1	0.7654	0.5377	0.8812	0.8467	0.5748
+716	lymphoma&retinitis pigmentosa	0	0.2966935336589813	0	0.7654	0.5377	0.8812	0.8467	0.5748
+717	blood coagulation disorders, inherited&breast diseases	0	0.3105013072490692	0	0.7654	0.5377	0.8812	0.8467	0.5748
+718	amino acid metabolism, inborn errors&breast neoplasms	0	0.3389692008495331	0	0.7654	0.5377	0.8812	0.8467	0.5748
+719	pancreatic diseases&parkinsonian disorders	0	0.08886206895112991	0	0.7654	0.5377	0.8812	0.8467	0.5748
+720	metal metabolism, inborn errors&prostatic neoplasms	0	0.24255697429180145	0	0.7654	0.5377	0.8812	0.8467	0.5748
+721	blood coagulation disorders, inherited&dyssomnias	0	0.5560852885246277	0	0.7654	0.5377	0.8812	0.8467	0.5748
+722	joint diseases&prostatic neoplasms	0	0.017145343124866486	0	0.7654	0.5377	0.8812	0.8467	0.5748
+723	heart arrest&thyroid diseases	0	0.49333471059799194	0	0.7654	0.5377	0.8812	0.8467	0.5748
+724	genital diseases, female&multiple sclerosis	0	0.03740214556455612	0	0.7654	0.5377	0.8812	0.8467	0.5748
+725	hair diseases&nervous system diseases	0	0.6741086840629578	1	0.7654	0.5377	0.8812	0.8467	0.5748
+726	basal ganglia diseases&neoplasms, connective and soft tissue	0	0.18733635544776917	0	0.7654	0.5377	0.8812	0.8467	0.5748
+727	lymphatic diseases&spondylarthropathies	0	0.630232572555542	1	0.7654	0.5377	0.8812	0.8467	0.5748
+728	bile duct diseases&multiple sclerosis	0	0.036451082676649094	0	0.7654	0.5377	0.8812	0.8467	0.5748
+729	myocardial ischemia&vascular diseases	0	0.5162842869758606	0	0.7654	0.5377	0.8812	0.8467	0.5748
+730	esophageal diseases&lymphatic diseases	0	0.7550596594810486	1	0.7654	0.5377	0.8812	0.8467	0.5748
+731	amyotrophic lateral sclerosis&bile duct diseases	0	0.169303297996521	0	0.7654	0.5377	0.8812	0.8467	0.5748
+732	pancreatic diseases&peripheral nervous system diseases	0	0.7092337012290955	1	0.7654	0.5377	0.8812	0.8467	0.5748
+733	lipid metabolism disorders&spinocerebellar ataxias	0	0.05843418836593628	0	0.7654	0.5377	0.8812	0.8467	0.5748
+734	demyelinating diseases&neoplasms, germ cell and embryonal	0	0.061321552842855453	0	0.7654	0.5377	0.8812	0.8467	0.5748
+735	multiple sclerosis&ovarian neoplasms	0	0.009102589450776577	0	0.7654	0.5377	0.8812	0.8467	0.5748
+736	hypopigmentation&leukemia, myeloid, acute	0	0.7065950036048889	1	0.7654	0.5377	0.8812	0.8467	0.5748
+737	amino acid metabolism, inborn errors&myocardial infarction	0	0.031352005898952484	0	0.7654	0.5377	0.8812	0.8467	0.5748
+738	dementia&leukemia, b-cell	0	0.17094185948371887	0	0.7654	0.5377	0.8812	0.8467	0.5748
+739	carbohydrate metabolism, inborn errors&ovarian neoplasms	0	0.33149254322052	0	0.7654	0.5377	0.8812	0.8467	0.5748
+740	neoplasms, germ cell and embryonal&osteoporosis	0	0.1261473447084427	0	0.7654	0.5377	0.8812	0.8467	0.5748
+741	leprosy&liver cirrhosis, biliary	0	0.09057137370109558	0	0.7654	0.5377	0.8812	0.8467	0.5748
+742	alzheimer disease&leukemia, lymphocytic, chronic, b-cell	0	0.12487465888261795	0	0.7654	0.5377	0.8812	0.8467	0.5748
+743	graves disease&vascular diseases	0	0.568212628364563	0	0.7654	0.5377	0.8812	0.8467	0.5748
+744	arrhythmias, cardiac&glioma	0	0.00959806889295578	0	0.7654	0.5377	0.8812	0.8467	0.5748
+745	bone diseases&pancreatic diseases	0	0.484337717294693	0	0.7654	0.5377	0.8812	0.8467	0.5748
+746	lipid metabolism disorders&osteoporosis	0	0.3619913160800934	0	0.7654	0.5377	0.8812	0.8467	0.5748
+747	lymphoma&muscular dystrophies	0	0.5337799191474915	0	0.7654	0.5377	0.8812	0.8467	0.5748
+748	lymphoma&prostatic neoplasms	0	0.024235645309090614	0	0.7654	0.5377	0.8812	0.8467	0.5748
+749	esophageal diseases&neoplasms, connective and soft tissue	0	0.8719098567962646	1	0.7654	0.5377	0.8812	0.8467	0.5748
+750	demyelinating diseases&metabolism, inborn errors	0	0.498080849647522	0	0.7654	0.5377	0.8812	0.8467	0.5748
+751	gastroenteritis&head and neck neoplasms	0	0.6403360962867737	1	0.7654	0.5377	0.8812	0.8467	0.5748
+752	mycobacterium infections&myocardial infarction	0	0.0004850995901506394	0	0.7654	0.5377	0.8812	0.8467	0.5748
+753	cardiomegaly&crohn disease	0	0.0705617219209671	0	0.7654	0.5377	0.8812	0.8467	0.5748
+754	basal ganglia diseases&coronary artery disease	0	0.32876160740852356	0	0.7654	0.5377	0.8812	0.8467	0.5748
+755	demyelinating diseases&stomatognathic diseases	0	0.57149738073349	0	0.7654	0.5377	0.8812	0.8467	0.5748
+756	mycobacterium infections&rheumatic diseases	0	0.7819802165031433	1	0.7654	0.5377	0.8812	0.8467	0.5748
+757	breast neoplasms&lupus erythematosus, systemic	0	0.1402352899312973	0	0.7654	0.5377	0.8812	0.8467	0.5748
+758	arthritis, rheumatoid&psoriasis	0	0.7998484373092651	1	0.7654	0.5377	0.8812	0.8467	0.5748
+759	anemia, hemolytic&spinocerebellar ataxias	0	0.0636499673128128	0	0.7654	0.5377	0.8812	0.8467	0.5748
+760	aneurysm&leukemia, b-cell	0	0.8043133616447449	1	0.7654	0.5377	0.8812	0.8467	0.5748
+761	bone diseases, metabolic&polyneuropathies	0	0.9996902942657471	1	0.7654	0.5377	0.8812	0.8467	0.5748
+762	blood coagulation disorders, inherited&genital diseases, female	0	0.12488197535276413	0	0.7654	0.5377	0.8812	0.8467	0.5748
+763	arthritis, rheumatoid&muscular dystrophies	0	0.6152404546737671	1	0.7654	0.5377	0.8812	0.8467	0.5748
+764	intellectual disability&spondylarthropathies	0	0.691924512386322	1	0.7654	0.5377	0.8812	0.8467	0.5748
+765	epilepsy&prostatic neoplasms	0	0.03867855668067932	0	0.7654	0.5377	0.8812	0.8467	0.5748
+766	gout&spastic paraplegia, hereditary	0	0.16414391994476318	0	0.7654	0.5377	0.8812	0.8467	0.5748
+767	cranial nerve diseases&neoplasms, connective and soft tissue	0	0.47618380188941956	0	0.7654	0.5377	0.8812	0.8467	0.5748
+768	prostatic neoplasms&stomatognathic diseases	0	0.006266418378800154	0	0.7654	0.5377	0.8812	0.8467	0.5748
+769	bile duct diseases&genital diseases, male	0	0.08703019469976425	0	0.7654	0.5377	0.8812	0.8467	0.5748
+770	craniofacial abnormalities&pancreatic diseases	0	0.01632060296833515	0	0.7654	0.5377	0.8812	0.8467	0.5748
+771	leukemia, lymphocytic, chronic, b-cell&thyroid diseases	0	0.5747449994087219	0	0.7654	0.5377	0.8812	0.8467	0.5748
+772	genital diseases, male&nervous system diseases	0	0.43733862042427063	0	0.7654	0.5377	0.8812	0.8467	0.5748
+773	esophageal diseases&prostatic neoplasms	0	0.01945153996348381	0	0.7654	0.5377	0.8812	0.8467	0.5748
+774	asthma&glioma	0	0.5105257630348206	0	0.7654	0.5377	0.8812	0.8467	0.5748
+775	carcinoma, renal cell&lipid metabolism disorders	0	0.006140067707747221	0	0.7654	0.5377	0.8812	0.8467	0.5748
+776	bile duct diseases&spondylitis, ankylosing	0	0.3757407069206238	0	0.7654	0.5377	0.8812	0.8467	0.5748
+777	heart defects, congenital&osteoporosis	0	0.21727421879768372	0	0.7654	0.5377	0.8812	0.8467	0.5748
+778	prostatic neoplasms&proteinuria	0	0.11670663952827454	0	0.7654	0.5377	0.8812	0.8467	0.5748
+779	demyelinating diseases&diabetes mellitus, type 2	0	0.06670662015676498	0	0.7654	0.5377	0.8812	0.8467	0.5748
+780	dyskinesias&head and neck neoplasms	0	0.35012170672416687	0	0.7654	0.5377	0.8812	0.8467	0.5748
+781	asthma&demyelinating diseases	0	0.1911291927099228	0	0.7654	0.5377	0.8812	0.8467	0.5748
+782	lung diseases, obstructive&spastic paraplegia, hereditary	0	0.5504302978515625	0	0.7654	0.5377	0.8812	0.8467	0.5748
+783	carcinoma, renal cell&varicose veins	0	0.16282063722610474	0	0.7654	0.5377	0.8812	0.8467	0.5748
+784	coronary artery disease&nervous system diseases	0	0.38763394951820374	0	0.7654	0.5377	0.8812	0.8467	0.5748
+785	demyelinating diseases&hair diseases	0	0.25280582904815674	0	0.7654	0.5377	0.8812	0.8467	0.5748
+786	diabetes mellitus, type 1&prostatic neoplasms	0	0.013791135512292385	0	0.7654	0.5377	0.8812	0.8467	0.5748
+787	carcinoma, renal cell&coronary artery disease	0	0.10022077709436417	0	0.7654	0.5377	0.8812	0.8467	0.5748
+788	asthma&craniofacial abnormalities	0	0.8152326941490173	1	0.7654	0.5377	0.8812	0.8467	0.5748
+789	colorectal neoplasms&hypersensitivity	0	0.16851840913295746	0	0.7654	0.5377	0.8812	0.8467	0.5748
+790	glioma&osteoporosis	0	0.6105966567993164	1	0.7654	0.5377	0.8812	0.8467	0.5748
+791	basal ganglia diseases&heart defects, congenital	0	0.2793503403663635	0	0.7654	0.5377	0.8812	0.8467	0.5748
+792	myocardial ischemia&precursor cell lymphoblastic leukemia-lymphoma	0	0.04374068230390549	0	0.7654	0.5377	0.8812	0.8467	0.5748
+793	breast neoplasms&immune system diseases	0	0.7137385010719299	1	0.7654	0.5377	0.8812	0.8467	0.5748
+794	dementia&lupus erythematosus, systemic	0	0.5787677764892578	1	0.7654	0.5377	0.8812	0.8467	0.5748
+795	head and neck neoplasms&myocardial ischemia	0	0.30125895142555237	0	0.7654	0.5377	0.8812	0.8467	0.5748
+796	neoplasms, connective and soft tissue&rheumatic diseases	0	0.2343912571668625	0	0.7654	0.5377	0.8812	0.8467	0.5748
+797	ovarian neoplasms&spondylitis	0	0.21459746360778809	0	0.7654	0.5377	0.8812	0.8467	0.5748
+798	carbohydrate metabolism, inborn errors&prostatic neoplasms	0	0.013104954734444618	0	0.7654	0.5377	0.8812	0.8467	0.5748
+799	neoplasms&uveitis	0	0.1886596828699112	0	0.7654	0.5377	0.8812	0.8467	0.5748
+800	cardiomyopathy, hypertrophic&head and neck neoplasms	0	0.002202017931267619	0	0.7654	0.5377	0.8812	0.8467	0.5748
+801	lipid metabolism disorders&spinal cord diseases	0	0.027251312509179115	0	0.7654	0.5377	0.8812	0.8467	0.5748
+802	arterial occlusive diseases&multiple sclerosis	0	0.39409083127975464	0	0.7654	0.5377	0.8812	0.8467	0.5748
+803	colorectal neoplasms&retinitis pigmentosa	0	0.274764746427536	0	0.7654	0.5377	0.8812	0.8467	0.5748
+804	exophthalmos&prostatic neoplasms	0	0.03533247858285904	0	0.7654	0.5377	0.8812	0.8467	0.5748
+805	crohn disease&myocardial infarction	0	0.06676190346479416	0	0.7654	0.5377	0.8812	0.8467	0.5748
+806	lipid metabolism disorders&nervous system diseases	0	0.5291638374328613	0	0.7654	0.5377	0.8812	0.8467	0.5748
+807	alzheimer disease&cardiomyopathy, hypertrophic	0	0.2619949281215668	0	0.7654	0.5377	0.8812	0.8467	0.5748
+808	dyskinesias&myocardial infarction	0	0.09497413039207458	0	0.7654	0.5377	0.8812	0.8467	0.5748
+809	alzheimer disease&rheumatic diseases	0	0.43176203966140747	0	0.7654	0.5377	0.8812	0.8467	0.5748
+810	amyotrophic lateral sclerosis&liver cirrhosis	0	0.008704728446900845	0	0.7654	0.5377	0.8812	0.8467	0.5748
+811	carcinoma, renal cell&lupus erythematosus, systemic	0	0.020155327394604683	0	0.7654	0.5377	0.8812	0.8467	0.5748
+812	macular degeneration&neoplasms, germ cell and embryonal	0	0.062350645661354065	0	0.7654	0.5377	0.8812	0.8467	0.5748
+813	head and neck neoplasms&muscular diseases	0	0.149027019739151	0	0.7654	0.5377	0.8812	0.8467	0.5748
+814	alzheimer disease&lupus erythematosus, systemic	0	0.5633968114852905	0	0.7654	0.5377	0.8812	0.8467	0.5748
+815	gout&osteoporosis	0	0.8084719777107239	1	0.7654	0.5377	0.8812	0.8467	0.5748
+816	endocrine system diseases&liver cirrhosis, biliary	0	0.5692110061645508	0	0.7654	0.5377	0.8812	0.8467	0.5748
+817	breast neoplasms&cerebellar ataxia	0	0.07711105793714523	0	0.7654	0.5377	0.8812	0.8467	0.5748
+818	genital diseases, female&spinocerebellar ataxias	0	0.18295621871948242	0	0.7654	0.5377	0.8812	0.8467	0.5748
+819	behcet syndrome&lipid metabolism disorders	0	0.1245911717414856	0	0.7654	0.5377	0.8812	0.8467	0.5748
+820	adenocarcinoma&graves disease	0	0.06476287543773651	0	0.7654	0.5377	0.8812	0.8467	0.5748
+821	adenocarcinoma&basal ganglia diseases	0	0.006436419207602739	0	0.7654	0.5377	0.8812	0.8467	0.5748
+822	carcinoma, renal cell&cranial nerve diseases	0	0.4349309504032135	0	0.7654	0.5377	0.8812	0.8467	0.5748
+823	demyelinating diseases&heart arrest	0	0.4590100049972534	0	0.7654	0.5377	0.8812	0.8467	0.5748
+824	lipid metabolism disorders&multiple sclerosis	0	0.23663148283958435	0	0.7654	0.5377	0.8812	0.8467	0.5748
+825	head and neck neoplasms&rheumatic diseases	0	0.0997437834739685	0	0.7654	0.5377	0.8812	0.8467	0.5748
+826	dementia&leukemia, myeloid, acute	0	0.04844248667359352	0	0.7654	0.5377	0.8812	0.8467	0.5748
+827	adenocarcinoma&parkinsonian disorders	0	0.005801431834697723	0	0.7654	0.5377	0.8812	0.8467	0.5748
+828	arthritis&vascular diseases	0	0.7493921518325806	1	0.7654	0.5377	0.8812	0.8467	0.5748
+829	adenocarcinoma&exophthalmos	0	0.06476287543773651	0	0.7654	0.5377	0.8812	0.8467	0.5748
+830	breast diseases&nervous system diseases	0	0.4022403359413147	0	0.7654	0.5377	0.8812	0.8467	0.5748
+831	cholestasis&myocardial infarction	0	0.11288890242576599	0	0.7654	0.5377	0.8812	0.8467	0.5748
+832	cholestasis&coronary artery disease	0	0.010524705983698368	0	0.7654	0.5377	0.8812	0.8467	0.5748
+833	arrhythmias, cardiac&breast neoplasms	0	0.030362816527485847	0	0.7654	0.5377	0.8812	0.8467	0.5748
+834	breast neoplasms&coronary disease	0	0.017678888514637947	0	0.7654	0.5377	0.8812	0.8467	0.5748
+835	hypopigmentation&ovarian neoplasms	0	0.8696147203445435	1	0.7654	0.5377	0.8812	0.8467	0.5748
+836	leprosy&neoplasms, germ cell and embryonal	0	0.03335286304354668	0	0.7654	0.5377	0.8812	0.8467	0.5748
+837	lipid metabolism disorders&liver cirrhosis, biliary	0	0.20932330191135406	0	0.7654	0.5377	0.8812	0.8467	0.5748
+838	alzheimer disease&breast neoplasms	0	0.011282498016953468	0	0.7654	0.5377	0.8812	0.8467	0.5748
+839	lipidoses&macular degeneration	0	0.6334441900253296	1	0.7654	0.5377	0.8812	0.8467	0.5748
+840	breast neoplasms&crohn disease	0	0.10133914649486542	0	0.7654	0.5377	0.8812	0.8467	0.5748
+841	basal ganglia diseases&ovarian neoplasms	0	0.011360963806509972	0	0.7654	0.5377	0.8812	0.8467	0.5748
+842	albuminuria&multiple sclerosis	0	0.1347256302833557	0	0.7654	0.5377	0.8812	0.8467	0.5748
+843	demyelinating diseases&proteinuria	0	0.05906404182314873	0	0.7654	0.5377	0.8812	0.8467	0.5748
+844	breast diseases&glomerulonephritis	0	0.2756626307964325	0	0.7654	0.5377	0.8812	0.8467	0.5748
+845	leukemia, b-cell&neoplasms, germ cell and embryonal	0	0.3582892119884491	0	0.7654	0.5377	0.8812	0.8467	0.5748
+846	leukemia, b-cell&ovarian neoplasms	0	0.4844866991043091	0	0.7654	0.5377	0.8812	0.8467	0.5748
+847	dyskinesias&genital diseases, male	0	0.20859648287296295	0	0.7654	0.5377	0.8812	0.8467	0.5748
+848	arthritis, rheumatoid&genital diseases, male	0	0.06929975748062134	0	0.7654	0.5377	0.8812	0.8467	0.5748
+849	death, sudden&ovarian neoplasms	0	0.4501226544380188	0	0.7654	0.5377	0.8812	0.8467	0.5748
+850	genital diseases, male&goiter	0	0.16896192729473114	0	0.7654	0.5377	0.8812	0.8467	0.5748
+851	carcinoma, renal cell&coronary disease	0	0.05742095038294792	0	0.7654	0.5377	0.8812	0.8467	0.5748
+852	cardiomyopathies&ovarian neoplasms	0	0.004418910946696997	0	0.7654	0.5377	0.8812	0.8467	0.5748
+853	neoplasms&vasculitis	0	0.18308153748512268	0	0.7654	0.5377	0.8812	0.8467	0.5748
+854	myocardial ischemia&neoplasms, connective and soft tissue	0	0.07257582992315292	0	0.7654	0.5377	0.8812	0.8467	0.5748
+855	genital diseases, female&spondylitis, ankylosing	0	0.12938418984413147	0	0.7654	0.5377	0.8812	0.8467	0.5748
+856	intestinal neoplasms&rheumatic diseases	0	0.14615248143672943	0	0.7654	0.5377	0.8812	0.8467	0.5748
+857	alzheimer disease&immunologic deficiency syndromes	0	0.009210353717207909	0	0.7654	0.5377	0.8812	0.8467	0.5748
+858	arthritis, rheumatoid&prostatic neoplasms	0	0.012778356671333313	0	0.7654	0.5377	0.8812	0.8467	0.5748
+859	autoimmune diseases&breast neoplasms	0	0.3194606900215149	0	0.7654	0.5377	0.8812	0.8467	0.5748
+860	glioma&lupus erythematosus, systemic	0	0.03495863825082779	0	0.7654	0.5377	0.8812	0.8467	0.5748
+861	alzheimer disease&intestinal neoplasms	0	0.30713269114494324	0	0.7654	0.5377	0.8812	0.8467	0.5748
+862	ovarian neoplasms&uveitis	0	0.051012422889471054	0	0.7654	0.5377	0.8812	0.8467	0.5748
+863	cranial nerve diseases&ovarian neoplasms	0	0.24392670392990112	0	0.7654	0.5377	0.8812	0.8467	0.5748
+864	amyotrophic lateral sclerosis&ovarian neoplasms	0	0.034416861832141876	0	0.7654	0.5377	0.8812	0.8467	0.5748
+865	breast neoplasms&peripheral nervous system diseases	0	0.03171916678547859	0	0.7654	0.5377	0.8812	0.8467	0.5748
+866	basal ganglia diseases&genital diseases, female	0	0.15372571349143982	0	0.7654	0.5377	0.8812	0.8467	0.5748
+867	breast diseases&charcot-marie-tooth disease	0	0.06901869922876358	0	0.7654	0.5377	0.8812	0.8467	0.5748
+868	breast neoplasms&proteinuria	0	0.06871676445007324	0	0.7654	0.5377	0.8812	0.8467	0.5748
+869	breast neoplasms&dyssomnias	0	0.30125656723976135	0	0.7654	0.5377	0.8812	0.8467	0.5748
+870	dementia&ovarian neoplasms	0	0.009397352114319801	0	0.7654	0.5377	0.8812	0.8467	0.5748
+871	breast neoplasms&lysosomal storage diseases	0	0.17280466854572296	0	0.7654	0.5377	0.8812	0.8467	0.5748
+872	genital diseases, female&parkinsonian disorders	0	0.14940737187862396	0	0.7654	0.5377	0.8812	0.8467	0.5748
+873	adrenal gland diseases&demyelinating diseases	0	0.1730630099773407	0	0.7654	0.5377	0.8812	0.8467	0.5748
+874	demyelinating diseases&gout	0	0.3002602458000183	0	0.7654	0.5377	0.8812	0.8467	0.5748
+875	genital diseases, female&uveitis	0	0.07742574065923691	0	0.7654	0.5377	0.8812	0.8467	0.5748
+876	colorectal neoplasms&uveitis	0	0.08856160938739777	0	0.7654	0.5377	0.8812	0.8467	0.5748
+877	neoplasms, germ cell and embryonal&spondylitis, ankylosing	0	0.19384124875068665	0	0.7654	0.5377	0.8812	0.8467	0.5748
+878	ovarian neoplasms&spondylitis, ankylosing	0	0.16595004498958588	0	0.7654	0.5377	0.8812	0.8467	0.5748
+879	dementia&genital diseases, female	0	0.018506502732634544	0	0.7654	0.5377	0.8812	0.8467	0.5748
+880	intestinal neoplasms&leukemia, myeloid, acute	0	0.34905123710632324	0	0.7654	0.5377	0.8812	0.8467	0.5748
+881	genital diseases, male&osteoporosis	0	0.12310148775577545	0	0.7654	0.5377	0.8812	0.8467	0.5748
+882	breast diseases&genital diseases, male	0	0.05358652025461197	0	0.7654	0.5377	0.8812	0.8467	0.5748
+883	dyssomnias&nervous system diseases	0	0.6067987680435181	1	0.7654	0.5377	0.8812	0.8467	0.5748
+884	behcet syndrome&stomatognathic diseases	0	0.4798548221588135	0	0.7654	0.5377	0.8812	0.8467	0.5748
+885	behcet syndrome&uveal diseases	0	0.5127121210098267	0	0.7654	0.5377	0.8812	0.8467	0.5748
+886	abnormalities, multiple&immune system diseases	0	0.10348381847143173	0	0.7654	0.5377	0.8812	0.8467	0.5748
+887	autoimmune diseases&uveal diseases	0	0.5676348209381104	0	0.7654	0.5377	0.8812	0.8467	0.5748
+888	leprosy&multiple sclerosis	0	0.5288217663764954	0	0.7654	0.5377	0.8812	0.8467	0.5748
+889	endocrine system diseases&uveal diseases	0	0.5868581533432007	1	0.7654	0.5377	0.8812	0.8467	0.5748
+890	heart defects, congenital&neoplasms	0	0.2662535607814789	0	0.7654	0.5377	0.8812	0.8467	0.5748
+891	hypersensitivity&leprosy	0	0.778559148311615	1	0.7654	0.5377	0.8812	0.8467	0.5748
+892	abnormalities, multiple&hair diseases	0	0.035633526742458344	0	0.7654	0.5377	0.8812	0.8467	0.5748
+893	disorders of sex development&genital diseases, male	0	0.09992209076881409	0	0.7654	0.5377	0.8812	0.8467	0.5748
+894	hypersensitivity&lymphatic diseases	0	0.30668625235557556	0	0.7654	0.5377	0.8812	0.8467	0.5748
+895	metabolism, inborn errors&muscular dystrophies	0	0.5996960997581482	1	0.7654	0.5377	0.8812	0.8467	0.5748
+896	nervous system diseases&ovarian diseases	0	0.38424021005630493	0	0.7654	0.5377	0.8812	0.8467	0.5748
+897	abnormalities, multiple&glioma	0	0.015944959595799446	0	0.7654	0.5377	0.8812	0.8467	0.5748
+898	disorders of sex development&genital diseases, female	0	0.039663515985012054	0	0.7654	0.5377	0.8812	0.8467	0.5748
+899	dyssomnias&psoriasis	0	0.8570000529289246	1	0.7654	0.5377	0.8812	0.8467	0.5748
+900	head and neck neoplasms&mycobacterium infections	0	0.8793790936470032	1	0.7654	0.5377	0.8812	0.8467	0.5748
+901	hypotrichosis&mycobacterium infections	0	0.1018463522195816	0	0.7654	0.5377	0.8812	0.8467	0.5748
+902	immune system diseases&neuroendocrine tumors	0	0.6588729023933411	1	0.7654	0.5377	0.8812	0.8467	0.5748
+903	leprosy&leukemia	0	0.6677824258804321	1	0.7654	0.5377	0.8812	0.8467	0.5748
+904	leprosy&sleep disorders	0	0.04975135624408722	0	0.7654	0.5377	0.8812	0.8467	0.5748
+905	multiple sclerosis&peripheral nervous system diseases	0	0.9801873564720154	1	0.7654	0.5377	0.8812	0.8467	0.5748
+906	mycobacterium infections&thyroid diseases	0	0.8973191976547241	1	0.7654	0.5377	0.8812	0.8467	0.5748
+907	neuroendocrine tumors&vascular diseases	0	0.17241184413433075	0	0.7654	0.5377	0.8812	0.8467	0.5748
+908	spinocerebellar ataxias&vascular diseases	0	0.5468771457672119	0	0.7654	0.5377	0.8812	0.8467	0.5748
+909	abnormalities, multiple&adrenal gland diseases	0	0.04529404640197754	0	0.7654	0.5377	0.8812	0.8467	0.5748
+910	abnormalities, multiple&hemorrhagic disorders	0	0.02672676555812359	0	0.7654	0.5377	0.8812	0.8467	0.5748
+911	abnormalities, multiple&precursor cell lymphoblastic leukemia-lymphoma	0	0.002275642240419984	0	0.7654	0.5377	0.8812	0.8467	0.5748
+912	behcet syndrome&leprosy	0	0.17030738294124603	0	0.7654	0.5377	0.8812	0.8467	0.5748
+913	behcet syndrome&mycobacterium infections	0	0.4065786898136139	0	0.7654	0.5377	0.8812	0.8467	0.5748
+914	behcet syndrome&sleep disorders	0	0.28306081891059875	0	0.7654	0.5377	0.8812	0.8467	0.5748
+915	carcinoma, renal cell&neuroendocrine tumors	0	0.003023838857188821	0	0.7654	0.5377	0.8812	0.8467	0.5748
+916	death, sudden&lysosomal storage diseases	0	0.2021862268447876	0	0.7654	0.5377	0.8812	0.8467	0.5748
+917	death, sudden&muscular dystrophies	0	0.7226864695549011	1	0.7654	0.5377	0.8812	0.8467	0.5748
+918	demyelinating diseases&neuroendocrine tumors	0	0.05666453018784523	0	0.7654	0.5377	0.8812	0.8467	0.5748
+919	ectodermal dysplasia&respiratory tract diseases	0	0.0889875739812851	0	0.7654	0.5377	0.8812	0.8467	0.5748
+920	hereditary sensory and motor neuropathy&neuroendocrine tumors	0	2.1617426682496443e-05	0	0.7654	0.5377	0.8812	0.8467	0.5748
+921	hereditary sensory and motor neuropathy&retinitis pigmentosa	0	0.06953119486570358	0	0.7654	0.5377	0.8812	0.8467	0.5748
+922	lysosomal storage diseases&polyneuropathies	0	0.019258715212345123	0	0.7654	0.5377	0.8812	0.8467	0.5748
+923	neuroendocrine tumors&respiratory tract diseases	0	0.2359744906425476	0	0.7654	0.5377	0.8812	0.8467	0.5748
+924	abnormalities, multiple&cardiomyopathy, hypertrophic	0	0.13119329512119293	0	0.7654	0.5377	0.8812	0.8467	0.5748
+925	abnormalities, multiple&hypotrichosis	0	0.03561246767640114	0	0.7654	0.5377	0.8812	0.8467	0.5748
+926	abnormalities, multiple&leprosy	0	0.021912768483161926	0	0.7654	0.5377	0.8812	0.8467	0.5748
+927	abnormalities, multiple&liver cirrhosis, biliary	0	0.008125877007842064	0	0.7654	0.5377	0.8812	0.8467	0.5748
+928	abnormalities, multiple&lysosomal storage diseases	0	0.07272903621196747	0	0.7654	0.5377	0.8812	0.8467	0.5748
+929	abnormalities, multiple&sleep disorders	0	0.05391398072242737	0	0.7654	0.5377	0.8812	0.8467	0.5748
+930	abnormalities, multiple&spastic paraplegia, hereditary	0	0.056941207498311996	0	0.7654	0.5377	0.8812	0.8467	0.5748
+931	abnormalities, multiple&spinocerebellar degenerations	0	0.04275805503129959	0	0.7654	0.5377	0.8812	0.8467	0.5748
+932	abnormalities, multiple&uveitis	0	0.015154843218624592	0	0.7654	0.5377	0.8812	0.8467	0.5748
+933	adenocarcinoma&lysosomal storage diseases	0	0.5107084512710571	0	0.7654	0.5377	0.8812	0.8467	0.5748
+934	adenocarcinoma&malformations of cortical development	0	0.13822604715824127	0	0.7654	0.5377	0.8812	0.8467	0.5748
+935	adenocarcinoma&precursor cell lymphoblastic leukemia-lymphoma	0	0.047432076185941696	0	0.7654	0.5377	0.8812	0.8467	0.5748
+936	adrenal gland diseases&charcot-marie-tooth disease	0	0.04596875235438347	0	0.7654	0.5377	0.8812	0.8467	0.5748
+937	adrenal gland diseases&polyneuropathies	0	0.1572018712759018	0	0.7654	0.5377	0.8812	0.8467	0.5748
+938	amino acid metabolism, inborn errors&coronary disease	0	0.016548948362469673	0	0.7654	0.5377	0.8812	0.8467	0.5748
+939	amino acid metabolism, inborn errors&dyssomnias	0	0.3066690266132355	0	0.7654	0.5377	0.8812	0.8467	0.5748
+940	amino acid metabolism, inborn errors&uveal diseases	0	0.20173171162605286	0	0.7654	0.5377	0.8812	0.8467	0.5748
+941	amyotrophic lateral sclerosis&lysosomal storage diseases	0	0.0023259061854332685	0	0.7654	0.5377	0.8812	0.8467	0.5748
+942	aneurysm&hypotrichosis	0	0.47433850169181824	0	0.7654	0.5377	0.8812	0.8467	0.5748
+943	ankylosis&dwarfism	0	0.03422435745596886	0	0.7654	0.5377	0.8812	0.8467	0.5748
+944	ankylosis&lysosomal storage diseases	0	0.2274031937122345	0	0.7654	0.5377	0.8812	0.8467	0.5748
+945	behcet syndrome&carbohydrate metabolism, inborn errors	0	0.7805231213569641	1	0.7654	0.5377	0.8812	0.8467	0.5748
+946	behcet syndrome&cardiomegaly	0	0.1558879017829895	0	0.7654	0.5377	0.8812	0.8467	0.5748
+947	behcet syndrome&celiac disease	0	0.7471569180488586	1	0.7654	0.5377	0.8812	0.8467	0.5748
+948	behcet syndrome&charcot-marie-tooth disease	0	0.2868112325668335	0	0.7654	0.5377	0.8812	0.8467	0.5748
+949	behcet syndrome&dyskinesias	0	0.7032780051231384	1	0.7654	0.5377	0.8812	0.8467	0.5748
+950	behcet syndrome&intellectual disability	0	0.03138982132077217	0	0.7654	0.5377	0.8812	0.8467	0.5748
+951	behcet syndrome&metabolic syndrome x	0	0.0031974215526133776	0	0.7654	0.5377	0.8812	0.8467	0.5748
+952	behcet syndrome&ovarian diseases	0	0.262561559677124	0	0.7654	0.5377	0.8812	0.8467	0.5748
+953	behcet syndrome&ovarian neoplasms	0	0.05101240798830986	0	0.7654	0.5377	0.8812	0.8467	0.5748
+954	behcet syndrome&peripheral nervous system diseases	0	0.13950985670089722	0	0.7654	0.5377	0.8812	0.8467	0.5748
+955	blood coagulation disorders&metabolic syndrome x	0	0.07995826005935669	0	0.7654	0.5377	0.8812	0.8467	0.5748
+956	blood platelet disorders&mycobacterium infections	0	0.05970755219459534	0	0.7654	0.5377	0.8812	0.8467	0.5748
+957	breast diseases&spastic paraplegia, hereditary	0	0.09812428802251816	0	0.7654	0.5377	0.8812	0.8467	0.5748
+958	carbohydrate metabolism, inborn errors&disorders of sex development	0	0.5529382824897766	0	0.7654	0.5377	0.8812	0.8467	0.5748
+959	carcinoma, renal cell&metabolic syndrome x	0	0.00021563154587056488	0	0.7654	0.5377	0.8812	0.8467	0.5748
+960	cardiomegaly&disorders of sex development	0	0.8718757629394531	1	0.7654	0.5377	0.8812	0.8467	0.5748
+961	cardiomyopathy, hypertrophic&purine-pyrimidine metabolism, inborn errors	0	0.4932198226451874	0	0.7654	0.5377	0.8812	0.8467	0.5748
+962	charcot-marie-tooth disease&death, sudden	0	0.3694804906845093	0	0.7654	0.5377	0.8812	0.8467	0.5748
+963	charcot-marie-tooth disease&dyssomnias	0	0.05147680267691612	0	0.7654	0.5377	0.8812	0.8467	0.5748
+964	charcot-marie-tooth disease&hypopigmentation	0	0.30019739270210266	0	0.7654	0.5377	0.8812	0.8467	0.5748
+965	charcot-marie-tooth disease&leukemia	0	0.8756716847419739	1	0.7654	0.5377	0.8812	0.8467	0.5748
+966	charcot-marie-tooth disease&malformations of cortical development	0	0.05191392824053764	0	0.7654	0.5377	0.8812	0.8467	0.5748
+967	charcot-marie-tooth disease&purine-pyrimidine metabolism, inborn errors	0	0.01968103088438511	0	0.7654	0.5377	0.8812	0.8467	0.5748
+968	charcot-marie-tooth disease&sleep disorders	0	0.05147680267691612	0	0.7654	0.5377	0.8812	0.8467	0.5748
+969	colitis, ulcerative&disorders of sex development	0	0.0013617875520139933	0	0.7654	0.5377	0.8812	0.8467	0.5748
+970	colitis, ulcerative&dwarfism	0	0.0015231986762955785	0	0.7654	0.5377	0.8812	0.8467	0.5748
+971	colorectal neoplasms&ectodermal dysplasia	0	0.009787268005311489	0	0.7654	0.5377	0.8812	0.8467	0.5748
+972	colorectal neoplasms&spinocerebellar degenerations	0	0.383125364780426	0	0.7654	0.5377	0.8812	0.8467	0.5748
+973	coronary disease&exophthalmos	0	0.20390112698078156	0	0.7654	0.5377	0.8812	0.8467	0.5748
+974	coronary disease&hypotrichosis	0	0.11636645346879959	0	0.7654	0.5377	0.8812	0.8467	0.5748
+975	coronary disease&leukemia, myeloid, acute	0	0.4228706359863281	0	0.7654	0.5377	0.8812	0.8467	0.5748
+976	coronary disease&neoplasms, connective and soft tissue	0	0.07229306548833847	0	0.7654	0.5377	0.8812	0.8467	0.5748
+977	craniofacial abnormalities&immunologic deficiency syndromes	0	0.18940892815589905	0	0.7654	0.5377	0.8812	0.8467	0.5748
+978	craniofacial abnormalities&peripheral nervous system diseases	0	0.05997425690293312	0	0.7654	0.5377	0.8812	0.8467	0.5748
+979	crohn disease&dyssomnias	0	0.5714836716651917	0	0.7654	0.5377	0.8812	0.8467	0.5748
+980	crohn disease&ectodermal dysplasia	0	0.0067139738239347935	0	0.7654	0.5377	0.8812	0.8467	0.5748
+981	death, sudden&hypopigmentation	0	0.0877947136759758	0	0.7654	0.5377	0.8812	0.8467	0.5748
+982	death, sudden&hypotrichosis	0	0.2267807275056839	0	0.7654	0.5377	0.8812	0.8467	0.5748
+983	death, sudden&intestinal neoplasms	0	0.5219325423240662	0	0.7654	0.5377	0.8812	0.8467	0.5748
+984	death, sudden&precursor cell lymphoblastic leukemia-lymphoma	0	0.5117957592010498	0	0.7654	0.5377	0.8812	0.8467	0.5748
+985	disorders of sex development&goiter	0	0.07018544524908066	0	0.7654	0.5377	0.8812	0.8467	0.5748
+986	disorders of sex development&hemorrhagic disorders	0	0.01857612654566765	0	0.7654	0.5377	0.8812	0.8467	0.5748
+987	disorders of sex development&hyperthyroidism	0	0.06824801862239838	0	0.7654	0.5377	0.8812	0.8467	0.5748
+988	disorders of sex development&leukemia, myeloid, acute	0	0.3255435824394226	0	0.7654	0.5377	0.8812	0.8467	0.5748
+989	disorders of sex development&metabolic syndrome x	0	0.0019655609503388405	0	0.7654	0.5377	0.8812	0.8467	0.5748
+990	disorders of sex development&mycobacterium infections	0	0.0025932244025170803	0	0.7654	0.5377	0.8812	0.8467	0.5748
+991	disorders of sex development&proteinuria	0	0.31113916635513306	0	0.7654	0.5377	0.8812	0.8467	0.5748
+992	disorders of sex development&uveal diseases	0	0.020200802013278008	0	0.7654	0.5377	0.8812	0.8467	0.5748
+993	disorders of sex development&vascular diseases	0	0.3159075081348419	0	0.7654	0.5377	0.8812	0.8467	0.5748
+994	dwarfism&dyssomnias	0	0.04527454450726509	0	0.7654	0.5377	0.8812	0.8467	0.5748
+995	dwarfism&glioma	0	0.9592092037200928	1	0.7654	0.5377	0.8812	0.8467	0.5748
+996	dwarfism&hypotrichosis	0	0.059738241136074066	0	0.7654	0.5377	0.8812	0.8467	0.5748
+997	dwarfism&immunologic deficiency syndromes	0	0.009662210009992123	0	0.7654	0.5377	0.8812	0.8467	0.5748
+998	dwarfism&liver cirrhosis	0	0.06925452500581741	0	0.7654	0.5377	0.8812	0.8467	0.5748
+999	dwarfism&malabsorption syndromes	0	0.15332955121994019	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1000	dwarfism&metabolism, inborn errors	0	0.33715441823005676	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1001	dwarfism&muscular diseases	0	0.14782275259494781	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1002	dwarfism&spondylitis, ankylosing	0	0.03422435745596886	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1003	dyssomnias&hereditary sensory and motor neuropathy	0	0.1406189501285553	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1004	dyssomnias&metabolism, inborn errors	0	0.49193525314331055	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1005	dyssomnias&polyneuropathies	0	0.14067986607551575	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1006	ectodermal dysplasia&goiter	0	0.035274624824523926	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1007	ectodermal dysplasia&joint diseases	0	0.10193151980638504	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1008	ectodermal dysplasia&muscular diseases	0	0.24649113416671753	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1009	ectodermal dysplasia&spinocerebellar degenerations	0	0.07209606468677521	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1010	ectodermal dysplasia&spondylitis, ankylosing	0	0.006098642945289612	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1011	esophageal diseases&metabolic syndrome x	0	0.12113608419895172	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1012	exophthalmos&hereditary sensory and motor neuropathy	0	0.7769689559936523	1	0.7654	0.5377	0.8812	0.8467	0.5748
+1013	exophthalmos&malformations of cortical development	0	0.20674298703670502	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1014	exophthalmos&metabolic syndrome x	0	0.0023736648727208376	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1015	exophthalmos&purine-pyrimidine metabolism, inborn errors	0	0.03847884759306908	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1016	genital diseases, female&lysosomal storage diseases	0	0.37252873182296753	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1017	genital diseases, female&purine-pyrimidine metabolism, inborn errors	0	0.1990545690059662	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1018	glioma&peripheral nervous system diseases	0	0.9951515197753906	1	0.7654	0.5377	0.8812	0.8467	0.5748
+1019	goiter&peripheral nervous system diseases	0	0.7794451117515564	1	0.7654	0.5377	0.8812	0.8467	0.5748
+1020	graves disease&malformations of cortical development	0	0.20674298703670502	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1021	hair diseases&muscular dystrophies	0	0.5006958246231079	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1022	head and neck neoplasms&peripheral nervous system diseases	0	0.4051397144794464	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1023	head and neck neoplasms&purine-pyrimidine metabolism, inborn errors	0	0.04736313968896866	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1024	heart arrest&spinocerebellar degenerations	0	0.4881533086299896	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1025	heart defects, congenital&hereditary sensory and motor neuropathy	0	0.8865452408790588	1	0.7654	0.5377	0.8812	0.8467	0.5748
+1026	heart defects, congenital&lipidoses	0	0.6754816770553589	1	0.7654	0.5377	0.8812	0.8467	0.5748
+1027	heart defects, congenital&neuroendocrine tumors	0	0.11271354556083679	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1028	hemorrhagic disorders&hereditary sensory and motor neuropathy	0	0.23208054900169373	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1029	hemorrhagic disorders&polyneuropathies	0	0.2323399782180786	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1030	hereditary sensory and motor neuropathy&leukemia	0	0.18177028000354767	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1031	hereditary sensory and motor neuropathy&uveal diseases	0	0.03152739256620407	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1032	hypersensitivity&hypopigmentation	0	0.8336182832717896	1	0.7654	0.5377	0.8812	0.8467	0.5748
+1033	hypersensitivity&metabolism, inborn errors	0	0.7712628245353699	1	0.7654	0.5377	0.8812	0.8467	0.5748
+1034	hypersensitivity&spastic paraplegia, hereditary	0	0.3174037039279938	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1035	hypothalamic diseases&purine-pyrimidine metabolism, inborn errors	0	0.06458229571580887	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1036	hypotrichosis&retinitis pigmentosa	0	0.7539317607879639	1	0.7654	0.5377	0.8812	0.8467	0.5748
+1037	immunologic deficiency syndromes&purine-pyrimidine metabolism, inborn errors	0	0.01942577213048935	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1038	immunologic deficiency syndromes&spinocerebellar degenerations	0	0.8889296054840088	1	0.7654	0.5377	0.8812	0.8467	0.5748
+1039	intellectual disability&intestinal neoplasms	0	0.4932612478733063	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1040	leprosy&polyneuropathies	0	0.1470228135585785	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1041	leukemia&muscular dystrophies	0	0.2539897561073303	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1042	leukemia&uveal diseases	0	0.2393338680267334	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1043	leukemia, myeloid, acute&uveal diseases	0	0.8394676446914673	1	0.7654	0.5377	0.8812	0.8467	0.5748
+1044	lipidoses&muscular diseases	0	0.6098299026489258	1	0.7654	0.5377	0.8812	0.8467	0.5748
+1045	lipidoses&neuroendocrine tumors	0	0.0016647838056087494	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1046	lipidoses&ovarian diseases	0	0.6531521677970886	1	0.7654	0.5377	0.8812	0.8467	0.5748
+1047	liver cirrhosis, biliary&neuroendocrine tumors	0	0.004938102792948484	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1048	lung diseases, obstructive&uveal diseases	0	0.592395544052124	1	0.7654	0.5377	0.8812	0.8467	0.5748
+1049	lupus erythematosus, systemic&lysosomal storage diseases	0	0.7793874144554138	1	0.7654	0.5377	0.8812	0.8467	0.5748
+1050	lysosomal storage diseases&macular degeneration	0	0.6386330723762512	1	0.7654	0.5377	0.8812	0.8467	0.5748
+1051	lysosomal storage diseases&spondylitis, ankylosing	0	0.22740305960178375	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1052	malabsorption syndromes&neuroendocrine tumors	0	0.007178397849202156	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1053	malformations of cortical development&spastic paraplegia, hereditary	0	0.030519995838403702	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1054	metabolic syndrome x&movement disorders	0	0.07709582149982452	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1055	metabolic syndrome x&purine-pyrimidine metabolism, inborn errors	0	0.0007654556538909674	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1056	metabolic syndrome x&sleep disorders	0	0.015589237213134766	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1057	metabolic syndrome x&stomatognathic diseases	0	0.003938973415642977	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1058	metabolism, inborn errors&ovarian diseases	0	0.5670548677444458	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1059	metal metabolism, inborn errors&neuroendocrine tumors	0	0.009895914234220982	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1060	motor neuron disease&sleep disorders	0	0.10491181164979935	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1061	movement disorders&purine-pyrimidine metabolism, inborn errors	0	0.11830798536539078	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1062	muscular dystrophies&mycobacterium infections	0	0.30137643218040466	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1063	neoplasms&purine-pyrimidine metabolism, inborn errors	0	0.21802297234535217	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1064	neuroendocrine tumors&proteinuria	0	0.025682291015982628	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1065	neuroendocrine tumors&thyroid diseases	0	0.0383455753326416	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1066	ovarian neoplasms&purine-pyrimidine metabolism, inborn errors	0	0.2185608446598053	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1067	precursor cell lymphoblastic leukemia-lymphoma&retinitis pigmentosa	0	0.10675780475139618	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1068	purine-pyrimidine metabolism, inborn errors&respiratory tract diseases	0	0.22612309455871582	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1069	purine-pyrimidine metabolism, inborn errors&uveitis	0	0.023746151477098465	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1070	respiratory tract diseases&spinocerebellar degenerations	0	0.5710327625274658	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1071	retinitis pigmentosa&uveal diseases	0	0.1789272278547287	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1072	sleep disorders&spinocerebellar degenerations	0	0.12526939809322357	0	0.7654	0.5377	0.8812	0.8467	0.5748
+1073	spinocerebellar degenerations&stomatognathic diseases	0	0.5975448489189148	1	0.7654	0.5377	0.8812	0.8467	0.5748
