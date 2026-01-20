@@ -36,7 +36,6 @@ The notebook `GGAT_singlechannel.ipynb` implements GGAT single-channel models, i
 - For users who only want to **verify that the code runs correctly** or to
   **inspect the model design**, the number of epochs can be reduced (e.g., `epochs = 1`),
   in which case the notebook will finish within a few minutes.
-- Full-length training is only required to **reproduce the reported performance**.
 
 #### GGAT single-channel framework
 ![fig1](https://github.com/xihan-qin/GGAT-GatedFusion/blob/master/figs/GGAT%20channel.png)
@@ -128,9 +127,9 @@ ReLU activation,
 
 $$
 \ell_p =
-\mathbf{w}_4^{\top}
+\mathbf{w}^{\top}
 \rho\Big(
-\mathbf{W}_3 \, \rho(P_p)
+\mathbf{W}\rho(P_p)
 \Big)
 \qquad (Eq.5)
 $$
