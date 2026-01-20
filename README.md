@@ -31,11 +31,11 @@ The notebook `GGAT_singlechannel.ipynb` implements GGAT single-channel models, i
 - **GGAT-Disease** (`model_type = "label"`)
 
 #### Runtime Notes
-- The default number of training epochs is **3000**, which requires a GPU and takes
+- The default number of training epochs is **3000**, which takes
   approximately **9 hours** to complete on Google Colab.
 - For users who only want to **verify that the code runs correctly** or to
   **inspect the model design**, the number of epochs can be reduced (e.g., `epochs = 1`),
-  in which case the notebook will finish within a few minutes.
+  in which case it will finish within a few minutes.
 
 #### GGAT single-channel framework
 ![fig1](https://github.com/xihan-qin/GGAT-GatedFusion/blob/master/figs/GGAT%20channel.png)
@@ -46,16 +46,21 @@ The notebook `GGAT_singlechannel.ipynb` implements GGAT single-channel models, i
 
 The notebook `GGAT_fusion.ipynb` implements the **GGAT-GatedFusion** model.
 
-#### Important Notes
+#### Implementation Notes
 - This notebook requires **pre-trained single-channel GGAT checkpoints** produced by
   `GGAT_singlechannel.ipynb` (saved as `.pt` files containing model parameters).
-- In `GGAT_fusion.ipynb`, the single-channel models are **loaded from these `.pt` checkpoints**
-  and the corresponding **node representations (embeddings) are computed via a forward pass**
-  before being used as inputs to the fusion model.
+- The single-channel model checkpoints are **loaded from `.pt` files**. For convenience 
+  and reproducibility, the required `.pt` files are provided in `results/RR1/Fold5`, 
+  allowing users to run the fusion notebook without re-training the single-channel models.
+- The single-channel model components are loaded from `GGAT_singleChannel.py`, please 
+  ensure this file is in your root path before running the notebook.
 
-For convenience and reproducibility, the required single-channel `.pt` checkpoints are
-provided in this repository, allowing users to run the fusion notebook without re-training
-the single-channel models.
+#### Runtime Notes
+- The default number of training epochs for the fusion model is 200, which requires 
+  approximately **3 hours** on Google Colab.
+- For users who only want to verify that the code runs correctly or inspect the model design, 
+  the number of epochs can be reduced (e.g., epochs = 1), in which case it will finish within 
+  a few minutes.
 
 #### GatedFusion
 ![fig2](https://github.com/xihan-qin/GGAT-GatedFusion/blob/master/figs/gatedfusion.png)
