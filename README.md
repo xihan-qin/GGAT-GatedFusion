@@ -11,6 +11,19 @@ datasets demonstrate that GGAT consistently outperforms state-of-the-art
 Transformer-based baselines across multiple evaluation metrics, highlighting
 its effectiveness and flexibility for modeling disease–disease relationships.
 
+## Data Organization
+
+The `data/` directory contains **predefined splits for stratified 10-fold
+cross-validation**. Each subdirectory (`fold1`, `fold2`, ..., `fold10`)
+corresponds to **one cross-validation run**.
+
+Within each `foldi` directory, the dataset is already split into
+`train_set.tsv` and `test_set.tsv`, where `test_set.tsv` contains the held-out fold
+for that run, and `train_set.tsv` contains the remaining data from the other
+9 folds combined.
+
+Please refer to the section **Training and Experimental Settings** below
+for details on the cross-validation protocol.
 
 ## Models and Usage
 This project is designed to be run in Google Colab. All dependencies are handled
