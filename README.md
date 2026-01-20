@@ -49,17 +49,16 @@ The notebook `GGAT_fusion.ipynb` implements the **GGAT-GatedFusion** model.
 #### Implementation Notes
 - This notebook requires **pre-trained single-channel GGAT checkpoints** produced by
   `GGAT_singlechannel.ipynb` (saved as `.pt` files containing model parameters).
-- The single-channel model checkpoints are **loaded from `.pt` files**. For convenience 
-  and reproducibility, the required `.pt` files are provided in `results/RR1/Fold5`, 
+- For convenience and reproducibility, the required `.pt` files are provided in `results/RR1/Fold5`, 
   allowing users to run the fusion notebook without re-training the single-channel models.
 - The single-channel model components are loaded from `GGAT_singleChannel.py`, please 
   ensure this file is in your root path before running the notebook.
 
 #### Runtime Notes
-- The default number of training epochs for the fusion model is 200, which requires 
+- The default number of training epochs for the fusion model is **200**, which requires 
   approximately **3 hours** on Google Colab.
-- For users who only want to verify that the code runs correctly or inspect the model design, 
-  the number of epochs can be reduced (e.g., epochs = 1), in which case it will finish within 
+- For users who only want to **verify that the code runs correctly** or **inspect the model design**, 
+  the number of epochs can be reduced (e.g., `epochs = 1`), in which case it will finish within 
   a few minutes.
 
 #### GatedFusion
